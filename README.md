@@ -2,6 +2,8 @@
 
 Knowledge graph and knowledgebase for Chinese Medicine domain, learn by practicing!
 
+## Overview
+
 Ontology analysis on Traditional Chinese Medicine (theory, prescription, material, method)
 
 | 本仓库以及相关视频将以中文为主进行中医、中药、方剂等诸方面的本体知识整理，并在整理过程中探讨使用Protege本体编辑器工具的技巧和方法，目标是建立中国传统（其实已经在当世被发扬光大）的中医药知识体系，并能够通过建立起的关系进行灵活的查询。| <img src="img/Chinese_Med.jpg" alt="coverimage" width="600" /> |
@@ -26,14 +28,20 @@ Here you can view the ontology via WebVOWL: [link](https://service.tib.eu/webvow
 
 ---
 
-Video links will be published here:
+## Video links will be published here
 
 - [YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXxvfG6fZzythByHxKzc64G)
 - [西瓜视频](https://www.ixigua.com/7303975536609460777?&&id=7303967975441170970)
 
 ---
 
-本体模型构建日志
+## 参考链接
+
+- [国家药品监督管理局NMPA数据查询](https://www.nmpa.gov.cn/datasearch/home-index.html#category=yp)
+
+---
+
+## 本体模型构建日志
 
 | 日期 | 主要内容 |
 | --- | :-- |
