@@ -34,6 +34,7 @@ Using Protege, below is the snapshot (date: 2023/11/19)
 ## 参考链接
 
 - [国家药品监督管理局NMPA数据查询](https://www.nmpa.gov.cn/datasearch/home-index.html#category=yp)
+- [第二批国家非处方中成药品种使用说明书的通知](https://www.nmpa.gov.cn/wwwroot/zy/zyml.htm): 文件已经下载到[Chinese_Medica_NMPA](/Chinese_Medica_NMPA/)子目录
 
 ---
 
