@@ -1,0 +1,3991 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cn-medo="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂制法 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂制法"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#主治 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#主治">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#应用方剂"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#应用方剂 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#应用方剂"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分于"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上人 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上人">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上禽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上禽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上米、谷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上米、谷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下未祥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下未祥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下米、谷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下米、谷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中禽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中禽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹砂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹砂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹雄鸡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹雄鸡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上禽"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雁肪"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌贼鱼骨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌贼鱼骨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌韭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌韭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#云实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#云实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#云母 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#云母">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五加皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五加皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五色石脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五色石脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#代赭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#代赭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伏翼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伏翼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#假苏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#假苏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#元参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#元参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#六畜毛蹄甲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#六畜毛蹄甲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#兰草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#兰草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#冬灰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#冬灰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#冬葵子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#冬葵子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#决明子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#决明子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#凝水石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#凝水石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#别羁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#别羁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#升麻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#升麻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卤盐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卤盐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卫矛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卫矛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卷柏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卷柏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#发 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#发">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上人"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#合欢 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#合欢">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#吴茱萸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#吴茱萸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地榆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地榆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地肤子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地肤子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#夏枯草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#夏枯草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大戟 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大戟">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大盐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大盐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大黄豆卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大黄豆卷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天名精 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天名精">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天门冬 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天门冬">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天雄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天雄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天鼠尿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天鼠尿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中禽"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#燕尿"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#太乙余粮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#太乙余粮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#奄闾子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#奄闾子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女菀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女菀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女萎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女萎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女贞实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女贞实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#姑活 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#姑活">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#孔公孽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#孔公孽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#射干 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#射干">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#屈草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#屈草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#山茱萸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#山茱萸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#巴戟天 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#巴戟天">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#巴豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#巴豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干地黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干地黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干漆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干漆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#当归 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#当归">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#彼子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#彼子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下未祥"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#徐长卿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#徐长卿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#恒山 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#恒山">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#戎盐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#戎盐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#扁青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#扁青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#文蛤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#文蛤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#旋华 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#旋华">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#旋复花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#旋复花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#景天 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#景天">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#曾青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#曾青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木兰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木兰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木虻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木虻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木香 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木香">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#朴硝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#朴硝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏核仁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏核仁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杜仲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杜仲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杜若 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杜若">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#松脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#松脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#松萝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#松萝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#析子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#析子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枳实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枳实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枸杞 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枸杞">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柏实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柏实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柏木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柏木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柞蝉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柞蝉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柳花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柳花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柴胡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柴胡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栀子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栀子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝蒌根 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝蒌根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栾花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栾花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桃核仁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桃核仁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桐叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桐叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑上寄生 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑上寄生">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑根白皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑根白皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑螵蛸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑螵蛸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桔梗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桔梗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#梅实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#梅实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#梓白皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#梓白皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#椿鸡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#椿鸡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#楝实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#楝实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#榆皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#榆皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#槐实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#槐实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#橘柚 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#橘柚">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#款冬花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#款冬花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#殷孽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#殷孽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水苏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水苏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水萍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水萍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水蛭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水蛭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水银 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水银">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水靳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水靳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下菜"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦瓠"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#沙参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#沙参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽兰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽兰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽泻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽泻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽漆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽漆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#浓朴 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#浓朴">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海蛤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海蛤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#涅石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#涅石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#淫羊藿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#淫羊藿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#淮木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#淮木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#溲疏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#溲疏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#滑石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#滑石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#漏芦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#漏芦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#熊脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#熊脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#燕尿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#燕尿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中禽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#爵床 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#爵床">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牙子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牙子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛扁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛扁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛膝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛膝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛角 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛角">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡丹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡丹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡桂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡桂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡狗阴茎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡狗阴茎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#犀角 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#犀角">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#狗脊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#狗脊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#独活 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#独活">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#猥皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#猥皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#猪苓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#猪苓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#玉泉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#玉泉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王不留行 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王不留行">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王孙 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王孙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王瓜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王瓜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#班苗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#班苗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#理石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#理石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瓜子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瓜子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瓜蒂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瓜蒂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘遂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘遂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白僵蚕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白僵蚕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白兔藿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白兔藿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白垩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白垩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白头翁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白头翁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白棘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白棘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白石英 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白石英">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白胶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白胶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白英 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白英">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白蒿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白蒿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白蔹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白蔹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白薇 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白薇">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白藓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白藓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白马茎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白马茎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#百合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#百合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#皂荚 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#皂荚">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瞿麦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瞿麦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#知母 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#知母">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石南 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石南">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石斛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石斛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石流黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石流黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石苇 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石苇">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石蚕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石蚕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石蜜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石蜜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石钟乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石钟乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石长生 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石长生">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙刍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙刍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙芮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙芮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矾石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矾石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#硝石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#硝石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#磁石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#磁石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#禹余粮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#禹余粮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦艽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦艽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦菽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦菽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#积雪草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#积雪草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#空青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#空青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粉锡锡镜鼻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粉锡锡镜鼻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粟米 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粟米">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫石英 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫石英">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫芝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫芝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫菀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫菀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫葳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫葳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#络石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#络石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#续断 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#续断">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊桃 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊桃">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊踯躅 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊踯躅">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊蹄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊蹄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羚羊角 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羚羊角">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#翘根 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#翘根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#耳实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#耳实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肉苁蓉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肉苁蓉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肤青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肤青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#胡麻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#胡麻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上米、谷"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻贲"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#腐婢 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#腐婢">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#腮羊角 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#腮羊角">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芜萸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芜萸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芫花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芫花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苋实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苋实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦瓠 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦瓠">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茅根 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茅根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茜根 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茜根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茵芋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茵芋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茵陈 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茵陈">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茺蔚子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茺蔚子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#草蒿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#草蒿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荛花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荛花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荧火 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荧火">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荩草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荩草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#药实根 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#药实根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#莨荡子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#莨荡子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#莽草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#莽草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菌桂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菌桂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菖蒲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菖蒲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菟丝子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菟丝子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#萆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#萆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#营实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#营实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葡萄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葡萄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葱实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葱实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蒲黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蒲黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蒺藜子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蒺藜子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓍实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓍实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓝实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓝实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓬蔂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓬蔂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓼实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓼实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蔓椒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蔓椒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蔓荆实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蔓荆实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蕤核 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蕤核">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薇衔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薇衔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薏苡仁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薏苡仁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薯蓣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薯蓣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藁本 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藁本">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藕实茎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藕实茎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藜芦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藜芦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藿菌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藿菌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蘼芜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蘼芜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#虎掌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#虎掌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#虫 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#虫">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蚤休 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蚤休">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蚯蚓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蚯蚓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇床子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇床子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇蜕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇蜕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇鱼甲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇鱼甲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛞蝓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛞蝓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛤蟆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛤蟆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛴螬 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛴螬">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀羊泉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀羊泉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀菽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀菽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜂子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜂子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜈蚣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜈蚣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜚廉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜚廉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜚虻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜚虻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜜蜡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜜蜡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜣螂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜣螂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蝼蛄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蝼蛄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蟹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蟹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蠡实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蠡实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蠡鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蠡鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#衣鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#衣鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#豚卵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#豚卵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贝子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贝子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贝母 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贝母">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#败酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#败酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贯众 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贯众">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤小豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤小豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤箭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤箭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤芝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤芝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#车前子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#车前子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#辛夷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#辛夷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#远志 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#远志">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#连翘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#连翘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#通草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#通草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#郁李仁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#郁李仁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#酸枣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#酸枣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#酸酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#酸酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#野狼毒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#野狼毒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#钩吻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#钩吻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#铁精 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#铁精">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#铅丹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#铅丹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#锻石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#锻石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#长石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#长石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#闾茹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#闾茹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防己 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防己">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防葵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防葵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防风 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防风">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#阳起石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#阳起石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#阿胶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#阿胶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#陆英 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#陆英">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雀瓮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雀瓮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雁肪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雁肪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上禽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雄黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雄黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雌黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雌黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雷丸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雷丸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#露蜂房 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#露蜂房">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青琅 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青琅">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青芝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青芝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青葙子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青葙子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鞠华 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鞠华">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#飞廉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#飞廉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香蒲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香蒲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马先蒿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马先蒿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马刀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马刀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马陆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马陆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鬼臼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鬼臼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鲤鱼胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鲤鱼胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鳖甲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鳖甲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸡头实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸡头实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸢尾 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸢尾">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鹿茸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鹿茸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鹿藿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鹿藿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麇脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麇脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麝香 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麝香">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻贲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻贲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄环 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄环">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄芝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄芝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄芩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄芩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄连 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄连">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黍米 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黍米">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠妇 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠妇">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠李 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠李">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙眼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙眼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙骨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙骨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龟甲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龟甲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_辨太阳病脉证并治-上 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_辨太阳病脉证并治-上">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_方剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_辨太阳病脉证并治-中"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_病脉证 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_病脉证">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_辨太阳病脉证并治-中"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_辨太阳病脉证并治-中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_辨太阳病脉证并治-中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#03_辨太阳病脉证并治-下 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#03_辨太阳病脉证并治-下">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#04_辨阳明病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#04_辨阳明病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#05_辨少阳病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#05_辨少阳病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#06_辨太阴病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#06_辨太阴病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#07_辨少阴病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#07_辨少阴病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#08_辨厥阴病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#08_辨厥阴病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#09_辨霍乱病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#09_辨霍乱病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#10_辨阴阳易差后劳复病脉证并治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#10_辨阴阳易差后劳复病脉证并治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ040_伤寒表不解，心下有水气，干呕，发热而咳，或渴，或利，或噎，或小便不利，少腹满，或喘者，小青龙汤主之 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ040_伤寒表不解，心下有水气，干呕，发热而咳，或渴，或利，或噎，或小便不利，少腹满，或喘者，小青龙汤主之">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_病脉证"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_方剂"/>
+        <cn-medo:主治 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ040_伤寒表不解，心下有水气，干呕，发热而咳，或渴，或利，或噎，或小便不利，少腹满，或喘者，小青龙汤主之"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_洗_半升"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_洗_半升"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_去皮_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_炙_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_去节_三两"/>
+        <cn-medo:方剂制法>上八味，以水一斗，先煮麻黄，减二升，去上沫，内诸药，煮取三升，去滓，温服一升。若渴，去半夏，加栝楼根三两；若微利，去麻黄，加荛花，如一鸡子，熬令赤色；若噎者，去麻黄，加附子一枚，炮；若小便不利，少腹满者，去麻黄，加茯苓四两；若喘，去麻黄，加杏仁半升，去皮尖。且荛花不治利，麻黄主喘，今此语反之，疑非仲景意。</cn-medo:方剂制法>
+        <rdfs:comment>臣亿等谨按：小青龙汤，大要治水。又按《本草》，荛花下十二水，若水去，利则止也。又按《千金》，形肿者应内麻黄，乃内杏仁者，以麻黄发其阳故也。以此证之，岂非仲景意也。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_洗_半升 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_洗_半升">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_洗_半升 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_洗_半升">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_去皮_三两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_去皮_三两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡桂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_炙_三两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_炙_三两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛_三两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛_三两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_去节_三两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_去节_三两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上人"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上兽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上木"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上果"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上玉、石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上禽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上米、谷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上菜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上虫、鱼"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下兽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下木"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下未祥"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下玉、石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下米、谷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下菜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下虫、鱼"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中兽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中果"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中玉、石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中禽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中米、谷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中菜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中虫"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#云实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#兰草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#决明子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#别羁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#升麻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卷柏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地肤子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天名精"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天门冬"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#奄闾子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女萎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#姑活"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#屈草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#巴戟天"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干地黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#徐长卿"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#旋华"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#景天"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木香"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#术"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杜若"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#析子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柴胡"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#沙参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽泻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#淮木"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#漏芦"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛膝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#独活"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王不留行"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白兔藿"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白英"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白蒿"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石斛"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙刍"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫芝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#络石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#续断"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肉苁蓉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茜根"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茵陈"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茺蔚子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菖蒲"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菟丝子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#营实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蒲黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蒺藜子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓍实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓝实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薇衔"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薏苡仁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薯蓣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蘼芜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇床子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤箭"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤芝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#车前子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#远志"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防葵"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防风"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青芝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鞠华"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#飞廉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香蒲"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄芝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄连"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙胆"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#丹砂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#云母"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五色石脂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#太乙余粮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#扁青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#曾青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#朴硝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#涅石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#滑石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#玉泉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白石英"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石胆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石钟乳"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#硝石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#禹余粮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#空青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫石英"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌头"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌韭"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#夏枯草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大戟"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#天雄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#射干"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#恒山"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#旋复花"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桔梗"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽漆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牙子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛扁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘遂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白头翁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芨"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白蔹"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石长生"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊桃"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊踯躅"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羊蹄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芫花"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茵芋"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#草蒿"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荛花"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荩草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#莨荡子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藜芦"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藿菌"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#虎掌"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蚤休"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇合"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贯众"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#连翘"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#野狼毒"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#钩吻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#闾茹"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#陆英"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青葙子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鬼臼"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸢尾"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鹿藿"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#乌贼鱼骨"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伏翼"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木虻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柞蝉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#椿鸡"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#猥皮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白僵蚕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#虫"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇鱼甲"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛞蝓"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛴螬"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜚廉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜚虻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蟹"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#露蜂房"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鳖甲"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五加皮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女贞实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干漆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#木兰"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杜仲"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#松脂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枸杞"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柏实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柏木"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑上寄生"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#榆皮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#槐实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#橘柚"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡桂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#菌桂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蔓荆实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蕤核"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#辛夷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#酸枣"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#代赭"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#冬灰"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卤盐"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大盐"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#戎盐"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白垩"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矾石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粉锡锡镜鼻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#铅丹"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#锻石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#青琅"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#假苏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#元参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地榆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#女菀"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#当归"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝蒌根"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#款冬花"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水萍"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽兰"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#淫羊藿"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#爵床"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡丹"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#狗脊"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王孙"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#王瓜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白薇"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白藓"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#百合"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瞿麦"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#知母"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石苇"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石龙芮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦艽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#积雪草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫菀"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#翘根"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#耳实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茅根"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#萆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藁本"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀羊泉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蠡实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贝母"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#败酱"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#通草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#酸酱"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#防己"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马先蒿"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄芩"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#六畜毛蹄甲"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#豚卵"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麇脂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#冬葵子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瓜子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#瓜蒂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苋实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#苦菜"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#凝水石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#孔公孽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#殷孽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水银"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#理石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石流黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#磁石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肤青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#铁精"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#长石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#阳起石"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雄黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雌黄"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#卫矛"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#合欢"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#吴茱萸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#山茱萸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#松萝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枳实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栀子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑根白皮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#浓朴"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#猪苓"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白棘"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦皮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#秦菽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫葳"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芜萸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙眼"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#地胆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水蛭"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#班苗"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石蚕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#荧火"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蚯蚓"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛇蜕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蛤蟆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜈蚣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜣螂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蝼蛄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#衣鱼"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#贝子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雀瓮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马刀"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马陆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠妇"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葡萄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓬蔂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#藕实茎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸡头实"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大黄豆卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粟米"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#赤小豆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黍米"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#巴豆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#柳花"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栾花"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桐叶"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#梓白皮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#楝实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#溲疏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#皂荚"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石南"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#药实根"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#莽草"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蔓椒"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀菽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#郁李仁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#雷丸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#黄环"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鼠李"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#文蛤"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桑螵蛸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海蛤"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石蜜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜂子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜜蜡"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蠡鱼"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鲤鱼胆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龟甲"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏核仁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桃核仁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#腐婢"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#水苏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葱实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蓼实"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#薤"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#熊脂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白胶"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#阿胶"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麝香"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#龙骨"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牛角"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡狗阴茎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#犀角"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白马茎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羚羊角"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#腮羊角"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鹿茸"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_辨太阳病脉证并治-上"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_辨太阳病脉证并治-中"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#03_辨太阳病脉证并治-下"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#04_辨阳明病脉证并治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#05_辨少阳病脉证并治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#06_辨太阴病脉证并治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#07_辨少阴病脉证并治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#08_辨厥阴病脉证并治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#09_辨霍乱病脉证并治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#10_辨阴阳易差后劳复病脉证并治"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

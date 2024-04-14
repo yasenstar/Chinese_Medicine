@@ -1,0 +1,1878 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:tcm="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#authored -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#authored">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#authoredBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#authoredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#authoredBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#belongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#includes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#includes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#writtenIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#writtenIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#ISBN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#ISBN">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#publishYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#publishYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体生理系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:comment>220—960年
+魏晋南北朝、隋唐至五代是中国医学发展史上承前启后的重要时期。中医学学科分化日趋成熟，医学理论与技术随着这一时期政治、经济、文化的发展而有新的提高，出现了众多名医名著，推动了中医学理论体系的发展和进步。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>960—1368年
+宋金元时期是中国医学发展迅速、流派纷呈、建树颇多的时期，对后世医学发展影响很大。这一时期中药学、方剂学、针灸学、临床各科学等发展迅速，医药著作大量刊行，开始有国家组织编撰刊行中医药学著作，并开始研究处方、成药、经络腧穴的规范化。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:comment>1368—1911年
+明清时期是中医学理论的综合汇通和深化发展阶段。标志性成果是命门理论的发展、温病理论的创新，以及大量的医学全书、丛书及类书的编撰集成，丰富和发展了中医学理论体系。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_近代与现代 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_近代与现代">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+        <rdfs:comment>1840年以后</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈言"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-02_南宋"/>
+        <rdfs:comment>《三因极一病证方论》（简称《三因方》），据张仲景“千般疢难，不越三条”的论点，结合临床实践与《内经》有关论述，将病因归纳为三大类：外感六淫为外因；七情内伤为内因；饮食所伤、叫呼伤气、虫兽所伤、跌打损伤、中毒、金疮等为不内外因。该书以病因与病证相结合的方法，系统阐述了三因理论，对后世病因学的发展影响极为深远。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中医基础理论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中医基础理论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_近代与现代"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#杨柱"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#郑洪新"/>
+        <tcm:ISBN>9787513269056</tcm:ISBN>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国医学大成 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国医学大成">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_近代与现代"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#曹炳章"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中西汇通医经精义 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中西汇通医经精义">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_近代与现代"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#唐宗海"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#临证指南医案 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#临证指南医案">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五十二病房 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五十二病房">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
+        <rdfs:comment>1973年，长沙马王堆三号汉墓出土的战国时期著作《五十二病方》以52种疾病进行分类，提及了103个病名，记载的药物就有植物、矿物和动物等不同种类，共有247种</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#伤寒杂病论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#伤寒杂病论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张仲景"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-03_东汉"/>
+        <rdfs:comment>《伤寒杂病论》 张机（字仲景）所著，成书于东汉，为中医学第一部辨证论治的专著。经晋·王叔和整理，分为《伤寒论》与《金匮要略》两部</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#儒门事亲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#儒门事亲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张从正"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1224-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#刘完素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#刘完素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>刘完素（字守真，后人尊称刘河间）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学衷中参西录 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学衷中参西录">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_近代与现代"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张锡纯"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医宗金鉴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医宗金鉴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴谦"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#20_清朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1742-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医林改错 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医林改错">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王清任"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#20_清朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1830-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#千金翼方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#千金翼方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#口 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#口">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#古今医统大全 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#古今医统大全">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#徐春甫"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#19_明朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1556-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#古今图书集成医部全录 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#古今图书集成医部全录">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈梦雷"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#20_清朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1723-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>叶桂（字天士，号香岩）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>吴有性（字又可）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴瑭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴瑭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>吴瑭（字鞠通）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴谦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴谦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#唐宗海 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#唐宗海">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>唐宗海（字容川）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#备急千金要方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#备急千金要方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0652-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#大肠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#大肠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小儿药证直诀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小儿药证直诀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#钱乙"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-01_北宋"/>
+        <rdfs:comment>《小儿药证直诀》 ，该书系统论述了小儿体质、病机及治疗特点：体质“血气未实”“五脏六腑，成而未全，全而未壮”；病机“脏腑柔弱，易虚易实，易寒易热”；治疗强调补泻要同时调理以善其后。钱乙重要贡献在于丰富和完善了中医学脏腑证治，将五脏辨证方法运用于临床实践。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小肠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小肠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#巢元方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#巢元方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张介宾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张介宾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>张介宾（字景岳）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张从正 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张从正">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>张从正（字子和，号戴人）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张仲景 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张仲景">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>张机（字仲景）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张锡纯 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张锡纯">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>张锡纯（字寿甫）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#徐春甫 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#徐春甫">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#心 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#心">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#心系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#心系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小肠"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#心"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阳小肠经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手少阴心经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脉"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#舌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阳小肠经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阳小肠经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阴肺经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阴肺经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手少阴心经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手少阴心经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手阳明大肠经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手阳明大肠经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#曹炳章 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#曹炳章">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>曹炳章（字赤电）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#本草纲目 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#本草纲目">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#19_明朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1578-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment>《本草纲目》（1578年），该书总结了明以前历代医药家在药物学方面的实践经验和药物理论，载中药1892种，分为16部60类，丰富了中国药物学的内容，对中医药学的发展具有卓越的贡献。同样，此书在世界医药学发展史上，也具有重要的地位，17世纪末，《本草纲目》即被译成拉丁文传入欧洲，以后又先后被译成日、英、德、朝鲜等多国文字，传播世界，产生举世瞩目的影响。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>朱震亨（字彦修，后人尊称朱丹溪）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李时珍 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李时珍">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <tcm:authored rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#本草纲目"/>
+        <rdfs:comment>李时珍（字东璧，晚号濒湖山人）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李杲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李杲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>李杲（字明之，自号东垣老人，后人尊称李东垣）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#杨柱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#杨柱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#格致余论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#格致余论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1347-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热经纬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热经纬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温疫论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温疫论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温病条辨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温病条辨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴瑭"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#湿热条辨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#湿热条辨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#薛雪"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#濒湖脉学 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#濒湖脉学">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李时珍"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#19_明朝"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王叔和 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王叔和">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王士雄 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王士雄">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <tcm:authored rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热经纬"/>
+        <tcm:authored rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#霍乱论"/>
+        <rdfs:comment>王士雄（字孟英，号潜斋，晚号梦隐）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王清任 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王清任">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>王清任（字勋臣）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王肯堂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王肯堂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皇甫谧 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皇甫谧">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皮 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皮">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#目 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#目">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#神农本草经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#神农本草经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-03_东汉"/>
+        <rdfs:comment>《神农本草经》 简称《本草经》或《本经》，成书于东汉，为现存最早的中药学专著。《神农本草经》集秦汉时期众多医家搜集、整理、总结药物学经验成果的精华，全书载药365种，根据养生、治病和药物毒性分为上、中、下三品，上品之药无毒，主益气；中品之药有毒或无毒，主治病、补虚；下品之药有毒，主除病邪、破积聚。根据中药功效将中药分为寒、凉、温、热四性，以及酸、苦、甘、辛、咸五味，为中药学“四气五味”的药性理论的确立奠定了基础。书中明确了“治寒以热药，治热以寒药”的用药原则，将药理学与病机学密切结合，使中医学理论体系更加完善。同时，该书提出单行、相须、相使、相畏、相恶、相反、相杀等“七情和合”的药物配伍理论，为中药组方提供了重要理论依据。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#筋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#筋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#素问玄机原病式 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#素问玄机原病式">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#刘完素"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1182-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#耳及二阴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#耳及二阴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后备急方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后备急方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后救卒方"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#葛洪"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝"/>
+        <rdfs:comment>《肘后备急方》（原名《肘后救卒方》） 晋·葛洪著，成书于东晋时期，为中医学第一部临床急症著作。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后救卒方 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后救卒方"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后救卒方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肘后救卒方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#目"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#筋"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胆"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足厥阴肝经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阳胆经"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#大肠"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阴肺经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手阳明大肠经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皮"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#鼻"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#耳及二阴"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#膀胱"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阳膀胱经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阴肾经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#骨"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胃 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胃">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胆 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胆">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脉经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脉经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王叔和"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾系统 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾系统">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#口"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肉"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胃"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阴脾经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足阳明胃经"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾胃论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾胃论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李杲"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1249-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#膀胱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#膀胱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#舌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#舌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#葛洪 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#葛洪">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#薛雪 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#薛雪">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>薛雪（字生白）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#证治准绳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#证治准绳">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#徐春甫"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1602-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#诸病源候论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#诸病源候论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#巢元方"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0610-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment>《诸病源候论》 隋·巢元方著，成书于610年，为中医学第一部病因病机证候学专著。全书以1729论分述内、外、妇、儿、五官、皮肤等诸科病证的病因、病机和症状，尤重于病源的研究，如指出疥疮是由疥虫所致；“漆疮”的发生与体质有关；某些传染病是由自然界的“乖戾之气”引起。诸证之末多附有导引法，对疾病的调护起到指导作用。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#赵献可 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#赵献可">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>赵献可（字养葵）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足厥阴肝经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足厥阴肝经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阳膀胱经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阳膀胱经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阴脾经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阴脾经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阳胆经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阳胆经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阴肾经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阴肾经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足阳明胃经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足阳明胃经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#郑洪新 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#郑洪新">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#针灸甲乙经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#针灸甲乙经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皇甫谧"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0259-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#钱乙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#钱乙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>钱乙（字仲阳）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈梦雷 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈梦雷">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈言 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈言">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>陈言（字无择）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#难经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#难经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
+        <rdfs:comment>《难经》 又称《黄帝八十一难经》，以问答解释疑难的形式编撰而成，约成书于东汉，传说为秦越人所作。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#霍乱论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#霍乱论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#骨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#骨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#黄帝内经 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#黄帝内经">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
+        <rdfs:comment>《黄帝内经》 简称《内经》，为中医学现存最早的经典著作。本书分为《素问》和《灵枢》两部，共18卷162篇，约成书于战国至秦汉时期，东汉至隋唐仍有修订和补充。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#鼻 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#鼻">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_三皇五帝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_三皇五帝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_夏朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_夏朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_周朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_周朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-01_西周 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-01_西周">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-02_东周 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-02_东周">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-02-01_春秋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-02-01_春秋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-02-02_战国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03-02-02_战国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_秦朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_秦朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_汉朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05_汉朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-01_西汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-01_西汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-02_新朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-02_新朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-03_东汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-03_东汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06_三国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06_三国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06-01_曹魏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06-01_曹魏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06-02_蜀汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06-02_蜀汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06-03_孙吴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#06-03_孙吴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07-01_西晋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07-01_西晋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07-02_东晋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07-02_东晋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08_十六国时期 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08_十六国时期">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-01_前赵和汉赵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-01_前赵和汉赵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-02_成汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-02_成汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-03_前凉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-03_前凉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-04_后赵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-04_后赵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-05_前燕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-05_前燕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-06_前秦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-06_前秦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-07_后秦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-07_后秦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-08_后燕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-08_后燕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-09_西秦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-09_西秦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-10_后凉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-10_后凉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-11_南凉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-11_南凉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-12_南燕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-12_南燕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-13_西凉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-13_西凉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-14_胡夏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-14_胡夏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-15_北燕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-15_北燕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-16_北凉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-16_北凉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-17_冉魏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-17_冉魏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-18_西燕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-18_西燕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-19_西蜀与后蜀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#08-19_西蜀与后蜀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09_南北朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09_南北朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01_南朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01_南朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-01_宋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-01_宋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-02_齐 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-02_齐">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-03_梁 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-03_梁">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-04_陈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-01-04_陈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02_北朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02_北朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-01_北魏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-01_北魏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-02_东魏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-02_东魏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-03_西魏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-03_西魏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-04_北齐 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-04_北齐">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-05_北周 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#09-02-05_北周">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#10_隋朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#10_隋朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0682-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12_五代十国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12_五代十国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-01_后梁 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-01_后梁">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-02_后唐 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-02_后唐">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-03_后晋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-03_后晋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-04_后汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-04_后汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-05_后周 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-05_后周">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-06_前蜀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-06_前蜀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-07_后蜀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-07_后蜀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-08_杨吴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-08_杨吴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-09_南唐 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-09_南唐">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-10_吴越 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-10_吴越">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-11_闽国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-11_闽国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-12_马楚 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-12_马楚">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-13_南汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-13_南汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-14_南平 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-14_南平">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-15_北汉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#12-15_北汉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13_宋朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13_宋朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-01_北宋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-01_北宋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-02_南宋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-02_南宋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#14_辽国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#14_辽国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#15_大理 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#15_大理">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#16_西夏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#16_西夏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#17_金国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#17_金国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#18_元朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#18_元朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#19_明朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#19_明朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#20_清朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#20_清朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#21_中华民国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#21_中华民国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#22_中国人民共和国 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#22_中国人民共和国">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>中国传统医学</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五体"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五脏"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#六腑"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#官窍"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#经脉"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
