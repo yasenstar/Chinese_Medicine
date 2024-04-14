@@ -24,10 +24,6 @@ Using Protege, below is the snapshot (date: 2023/11/19)
 
 ---
 
-Here you can view the ontology via WebVOWL: [link](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/Traditional_Chinese_Medicine/Chinese_Medicine.rdf)
-
----
-
 ## Video links will be published here
 
 - [YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXxvfG6fZzythByHxKzc64G)
