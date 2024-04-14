@@ -4,7 +4,7 @@ Knowledge graph and knowledgebase for Chinese Medicine domain, learn by practici
 
 ## Overview
 
-Ontology analysis on Traditional Chinese Medicine (theory, prescription, material, method)
+Ontology analysis on Traditional Chinese Medicine - TCM (theory, prescription, material, method)
 
 | 本仓库以及相关视频将以中文为主进行中医、中药、方剂等诸方面的本体知识整理，并在整理过程中探讨使用Protege本体编辑器工具的技巧和方法，目标是建立中国传统（其实已经在当世被发扬光大）的中医药知识体系，并能够通过建立起的关系进行灵活的查询。| <img src="img/Chinese_Med.jpg" alt="coverimage" width="600" /> |
 | :-- | --- |
