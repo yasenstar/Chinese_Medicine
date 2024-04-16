@@ -26,7 +26,7 @@ Using Protege, below is the snapshot (date: 2023/11/19)
 
 ## Building up the CN-Medicine Ontology (In Progress)
 
-Ontology Name: cn-medo.rdf
+Ontology Name: [cn-medo.rdf](cn-medo.rdf)
 
 ![metrics of cn-medo](img/cn-medo-metrics.png)
 
