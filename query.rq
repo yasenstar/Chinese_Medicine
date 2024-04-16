@@ -1,0 +1,6 @@
+prefix cn-meto: <http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo/>
+
+select ?s ?p ?o
+where {
+    cn-meto:s cn-meto:p cn-meto:o .
+}
