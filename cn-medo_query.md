@@ -39,13 +39,14 @@ Note: use `FILTER` within `WHERE` to target the specific object, use `&&` as log
 
 Result:
 
-subject             predicate   object
-FJ00018_小青龙汤	includes	干姜_三两	
-FJ00018_小青龙汤	includes	细辛_三两	
-#FJ00018_小青龙汤	includes	桂枝_三两_去皮	
-FJ00018_小青龙汤	includes	芍药_三两	
-FJ00018_小青龙汤	includes	麻黄_三两_去节	
-FJ00018_小青龙汤	includes	五味子_半升_洗	
-FJ00018_小青龙汤	includes	半夏_半升_洗	
-FJ00018_小青龙汤	includes	甘草_三两_炙
+| subject | predicate | object |
+| --- | --- | --- |
+| FJ00018_小青龙汤 | includes | 干姜_三两 |
+| FJ00018_小青龙汤 | includes | 细辛_三两 |
+| FJ00018_小青龙汤 | includes | 桂枝_三两_去皮 |
+| FJ00018_小青龙汤 | includes | 芍药_三两 |
+| FJ00018_小青龙汤 | includes | 麻黄_三两_去节 |
+| FJ00018_小青龙汤 | includes | 五味子_半升_洗 |
+| FJ00018_小青龙汤 | includes | 半夏_半升_洗 |
+| FJ00018_小青龙汤 | includes | 甘草_三两_炙 |
 
