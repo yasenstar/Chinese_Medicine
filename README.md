@@ -28,7 +28,10 @@ Using Protege, below is the snapshot (date: 2023/11/19)
 
 Ontology Name: [cn-medo.rdf](cn-medo.rdf)
 
-![metrics of cn-medo](img/cn-medo-metrics.png)
+| Date | Metrics in Ontology |
+| --- | --- |
+| 2024/05/03 | ![metrics of cn-medo 2024/05/03](img/cn-medo-metrics_20240503.png) |
+| 2024/04/15 | ![metrics of cn-medo 2024/04/15](img/cn-medo-metrics_20240415.png)
 
 ---
 
