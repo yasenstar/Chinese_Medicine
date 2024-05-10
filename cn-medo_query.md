@@ -20,6 +20,34 @@ Look for your Ontology's IRI as below screenshot:
 
 ## Use cases with Query Samples
 
+## 查询某个特定class下面的全部instance (individual)
+
+使用 `rdf:type` 或者 `a` 是等价的，如下：
+
+```SPARQL
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX m: <http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#>
+SELECT ?s
+	WHERE { ?s rdf:type m:伤寒杂病论_01_辨太阳病脉证并治-上_方剂 . }
+```
+
+OR
+
+```SPARQL
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX m: <http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#>
+SELECT ?s
+	WHERE { ?s a m:伤寒杂病论_01_辨太阳病脉证并治-上_方剂 . }
+```
+
+都可以得到这个class下面建立的方剂列表。
+
 ### 查询特定方剂和其组分
 
 ```SPARQL
