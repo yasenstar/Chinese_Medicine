@@ -8,7 +8,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:cn-medo="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo">
-        <rdfs:comment>2024/05/09：整合方剂与病脉证分别到相关的class中，避免概念交叉
+        <rdfs:comment>2024/05/10：添加“伤寒杂病论_03_辨太阳病脉证并治-下_方剂”
+2024/05/09：整合方剂与病脉证分别到相关的class中，避免概念交叉
 2024/05/03：添加“归脾丸”，调整属性定义
 2024/04/30：添加“竹蔗马蹄茅根雪梨组合”
 2024/04/15： add till BMZ00033</rdfs:comment>
