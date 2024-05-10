@@ -18,9 +18,10 @@ Ontology analysis on Traditional Chinese Medicine - TCM (theory, prescription, m
 2. 经典教材：《内经讲义》（包含：《内经选读》、《伤寒论选读》、《金匮要略》）、《温病学》、《伤寒论讲义》、《金匮要略讲义》
 3. 临床教材：《中医内科学》、《中医外科学》、《中医妇科学》、《中医儿科学》、《中医耳鼻喉科学》、《中医眼科学》
 
-Using Protege, below is the snapshot (date: 2023/11/19)
+Using Protege, below is the snapshots in different phase:
 
-![snapshot](/img/cn_med_ontology_export.png)
+- Date: 2024/05/10: ![snapshot](/img/cn_med_ontology_export-20240510.png)
+- Date: 2023/11/20: ![snapshot](/img/cn_med_ontology_export-20231120.png)
 
 ---
 
