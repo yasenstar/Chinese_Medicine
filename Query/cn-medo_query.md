@@ -16,7 +16,7 @@ Note: the first 4 lines are the default PREFIX in Protege's SPARQL tab, the last
 
 Look for your Ontology's IRI as below screenshot:
 
-![protege-ontology-iri](img/screenshots/ontology-iir-in-protege.png)
+![protege-ontology-iri](../img/screenshots/ontology-iir-in-protege.png)
 
 ## Use cases with Query Samples
 
