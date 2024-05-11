@@ -1,0 +1,6 @@
+PREFIX m: <http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#>
+
+SELECT ?s ?p ?o
+WHERE {
+  ?s ?p ?o .
+}
