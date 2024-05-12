@@ -1446,3 +1446,54 @@ Individual: BMZ00262_伤寒，瘀热在里，身必黄，麻黄连轺赤小豆�
    Types: 伤寒杂病论_04_辨阳明病脉证并治_病脉证
 
 ===========================================================================================================
+Date: 2024-05-11 18:10:04
+Ontology source: /D:/GitHub/Chinese_Medicine/cn-medo.rdf
+Worksheet source: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\病脉证set05.xlsx
+Transformation rules: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\伤寒杂病论.json
+
+# Cell range: (病脉证set05!A2:B11) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: BMZ00263_少阳之为病，口苦，咽干，目眩也。  # Generated from value "BMZ00263_少阳之为病，口苦，咽干，目眩也。" located at cell '病脉证set05'!A2.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00264_少阳中风，两耳无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。  # Generated from value "BMZ00264_少阳中风，两耳无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。" located at cell '病脉证set05'!A3.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00265_伤寒，脉弦细，头痛，发热者，属少阳。少阳不可发汗，发汗则谵语，此属胃。胃和则愈，胃不和，烦而悸。  # Generated from value "BMZ00265_伤寒，脉弦细，头痛，发热者，属少阳。少阳不可发汗，发汗则谵语，此属胃。胃和则愈，胃不和，烦而悸。" located at cell '病脉证set05'!A4.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00266_本太阳病不解，转入少阳者，胁下鞕满，干呕不能食，往来寒热，尚未吐下，脉沉紧者，与小柴胡汤。  # Generated from value "BMZ00266_本太阳病不解，转入少阳者，胁下鞕满，干呕不能食，往来寒热，尚未吐下，脉沉紧者，与小柴胡汤。" located at cell '病脉证set05'!A5.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00267_若已吐下、发汗、温针，谵语，柴胡汤证罢，此为坏病。知犯何逆，以法治之。  # Generated from value "BMZ00267_若已吐下、发汗、温针，谵语，柴胡汤证罢，此为坏病。知犯何逆，以法治之。" located at cell '病脉证set05'!A6.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00268_三阳合病，脉浮大，上关上，但欲眠睡，目合则汗。  # Generated from value "BMZ00268_三阳合病，脉浮大，上关上，但欲眠睡，目合则汗。" located at cell '病脉证set05'!A7.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00269_伤寒六七日，无大热，其人躁烦者，此为阳去入阴故也。  # Generated from value "BMZ00269_伤寒六七日，无大热，其人躁烦者，此为阳去入阴故也。" located at cell '病脉证set05'!A8.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00270_伤寒三日，三阳为尽，三阴当受邪，其人反能食而不呕，此为三阴不受邪也。  # Generated from value "BMZ00270_伤寒三日，三阳为尽，三阴当受邪，其人反能食而不呕，此为三阴不受邪也。" located at cell '病脉证set05'!A9.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00271_伤寒三日，少阳脉小者，欲已也。  # Generated from value "BMZ00271_伤寒三日，少阳脉小者，欲已也。" located at cell '病脉证set05'!A10.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00272_少阳病，欲解时，从寅至辰上。  # Generated from value "BMZ00272_少阳病，欲解时，从寅至辰上。" located at cell '病脉证set05'!A11.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00263_少阳之为病，口苦，咽干，目眩也。  # Generated from value "BMZ00263_少阳之为病，口苦，咽干，目眩也。" located at cell '病脉证set05'!A2.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00264_少阳中风，两耳无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。  # Generated from value "BMZ00264_少阳中风，两耳无所闻，目赤，胸中满而烦者，不可吐下，吐下则悸而惊。" located at cell '病脉证set05'!A3.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00265_伤寒，脉弦细，头痛，发热者，属少阳。少阳不可发汗，发汗则谵语，此属胃。胃和则愈，胃不和，烦而悸。  # Generated from value "BMZ00265_伤寒，脉弦细，头痛，发热者，属少阳。少阳不可发汗，发汗则谵语，此属胃。胃和则愈，胃不和，烦而悸。" located at cell '病脉证set05'!A4.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00266_本太阳病不解，转入少阳者，胁下鞕满，干呕不能食，往来寒热，尚未吐下，脉沉紧者，与小柴胡汤。  # Generated from value "BMZ00266_本太阳病不解，转入少阳者，胁下鞕满，干呕不能食，往来寒热，尚未吐下，脉沉紧者，与小柴胡汤。" located at cell '病脉证set05'!A5.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00267_若已吐下、发汗、温针，谵语，柴胡汤证罢，此为坏病。知犯何逆，以法治之。  # Generated from value "BMZ00267_若已吐下、发汗、温针，谵语，柴胡汤证罢，此为坏病。知犯何逆，以法治之。" located at cell '病脉证set05'!A6.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00268_三阳合病，脉浮大，上关上，但欲眠睡，目合则汗。  # Generated from value "BMZ00268_三阳合病，脉浮大，上关上，但欲眠睡，目合则汗。" located at cell '病脉证set05'!A7.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00269_伤寒六七日，无大热，其人躁烦者，此为阳去入阴故也。  # Generated from value "BMZ00269_伤寒六七日，无大热，其人躁烦者，此为阳去入阴故也。" located at cell '病脉证set05'!A8.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00270_伤寒三日，三阳为尽，三阴当受邪，其人反能食而不呕，此为三阴不受邪也。  # Generated from value "BMZ00270_伤寒三日，三阳为尽，三阴当受邪，其人反能食而不呕，此为三阴不受邪也。" located at cell '病脉证set05'!A9.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00271_伤寒三日，少阳脉小者，欲已也。  # Generated from value "BMZ00271_伤寒三日，少阳脉小者，欲已也。" located at cell '病脉证set05'!A10.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+Individual: BMZ00272_少阳病，欲解时，从寅至辰上。  # Generated from value "BMZ00272_少阳病，欲解时，从寅至辰上。" located at cell '病脉证set05'!A11.
+   Types: 伤寒杂病论_05_辨少阳病脉证并治
+
+===========================================================================================================
