@@ -16,7 +16,7 @@ Note: the first 4 lines are the default PREFIX in Protege's SPARQL tab, the last
 
 Look for your Ontology's IRI as below screenshot:
 
-![protege-ontology-iri](../img/screenshots/ontology-iir-in-protege.png)
+![protege-ontology-iri](img/ontology-iir-in-protege.png)
 
 ## Use cases with Query Samples
 
@@ -78,3 +78,50 @@ Result:
 | FJ00018_小青龙汤 | includes | 半夏_半升_洗 |
 | FJ00018_小青龙汤 | includes | 甘草_三两_炙 |
 
+### 使用FILTER和regex来进行模糊查询
+
+示例1：由于方剂中有若干名称中有“承气汤”，如“调胃承气汤”，“大承气汤”，“小承气汤”，下面查询只要含有“承气汤”的方剂和其对应病脉证，以方剂排序：
+
+```SPARQL
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX medo: <http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#>
+
+SELECT ?subject ?object
+	WHERE { 
+		?subject medo:相关病证 ?object .
+		FILTER( regex(str(?subject), "承气汤", "i") )
+	}
+	ORDER BY ?subject
+```
+
+部分结果如下：
+
+![filter-regex](img/filter-regex.png)
+
+示例2：列出所有用到某一药材，这里以“大黄”为例，的方剂。由于我们建模时把药材的用量与处理方法也同时放到药材的individual名称中，所以还是要用regex进行模糊匹配 （注意这里也用到了关键字AS进行表头文字的重命名）：
+
+```SPARQL
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX medo: <http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#>
+
+SELECT (?subject as ?方剂) (?object as ?组分)
+	WHERE { 
+		?subject medo:组分 ?object .
+		FILTER( regex(str(?object), "大黄", "i") )
+	}
+	ORDER BY ?object
+```
+
+结果如下：
+
+![filter-regex-2](img/filter-regex-2.png)
+
+---
+
+Update date: 2023/05/11
