@@ -1497,3 +1497,237 @@ Individual: BMZ00272_少阳病，欲解时，从寅至辰上。  # Generated fro
    Types: 伤寒杂病论_05_辨少阳病脉证并治
 
 ===========================================================================================================
+Date: 2024-05-12 11:49:37
+Ontology source: /D:/GitHub/Chinese_Medicine/cn-medo.rdf
+Worksheet source: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\病脉证set06.xlsx
+Transformation rules: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\伤寒杂病论.json
+
+# Cell range: (病脉证set06!A2:B9) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: BMZ00273_太阴之为病，腹满而吐，食不下，自利益甚，时腹自痛。若下之，必胸下结鞕。  # Generated from value "BMZ00273_太阴之为病，腹满而吐，食不下，自利益甚，时腹自痛。若下之，必胸下结鞕。" located at cell '病脉证set06'!A2.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00274_太阴中风，四肢烦疼，阳微阴涩而长者，为欲愈。  # Generated from value "BMZ00274_太阴中风，四肢烦疼，阳微阴涩而长者，为欲愈。" located at cell '病脉证set06'!A3.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00275_太阴病，欲解时，从亥至丑上。  # Generated from value "BMZ00275_太阴病，欲解时，从亥至丑上。" located at cell '病脉证set06'!A4.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00276_太阴病，脉浮者，可发汗，宜桂枝汤。  # Generated from value "BMZ00276_太阴病，脉浮者，可发汗，宜桂枝汤。" located at cell '病脉证set06'!A5.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00277_自利不渴者，属太阴，以其脏有寒故也。当温之，宜服四逆辈  # Generated from value "BMZ00277_自利不渴者，属太阴，以其脏有寒故也。当温之，宜服四逆辈" located at cell '病脉证set06'!A6.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00278_伤寒，脉浮而缓，手足自温者，系在太阴。太阴当发身黄，若小便自利者，不能发黄。至七八日，虽暴烦，下利，日十余行，必自止，以脾家实，腐秽当去故也。  # Generated from value "BMZ00278_伤寒，脉浮而缓，手足自温者，系在太阴。太阴当发身黄，若小便自利者，不能发黄。至七八日，虽暴烦，下利，日十余行，必自止，以脾家实，腐秽当去故也。" located at cell '病脉证set06'!A7.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00279_本太阳病，医反下之，因尔腹满时痛者，属太阴也，桂枝加芍药汤主之。大实痛者，桂枝加大黄汤主之。  # Generated from value "BMZ00279_本太阳病，医反下之，因尔腹满时痛者，属太阴也，桂枝加芍药汤主之。大实痛者，桂枝加大黄汤主之。" located at cell '病脉证set06'!A8.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00280_太阴为病，脉弱，其人续自便利，设当行大黄、芍药者，宜减之，以其人胃气弱，易动故也。  # Generated from value "BMZ00280_太阴为病，脉弱，其人续自便利，设当行大黄、芍药者，宜减之，以其人胃气弱，易动故也。" located at cell '病脉证set06'!A9.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00273_太阴之为病，腹满而吐，食不下，自利益甚，时腹自痛。若下之，必胸下结鞕。  # Generated from value "BMZ00273_太阴之为病，腹满而吐，食不下，自利益甚，时腹自痛。若下之，必胸下结鞕。" located at cell '病脉证set06'!A2.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00274_太阴中风，四肢烦疼，阳微阴涩而长者，为欲愈。  # Generated from value "BMZ00274_太阴中风，四肢烦疼，阳微阴涩而长者，为欲愈。" located at cell '病脉证set06'!A3.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00275_太阴病，欲解时，从亥至丑上。  # Generated from value "BMZ00275_太阴病，欲解时，从亥至丑上。" located at cell '病脉证set06'!A4.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00276_太阴病，脉浮者，可发汗，宜桂枝汤。  # Generated from value "BMZ00276_太阴病，脉浮者，可发汗，宜桂枝汤。" located at cell '病脉证set06'!A5.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00277_自利不渴者，属太阴，以其脏有寒故也。当温之，宜服四逆辈  # Generated from value "BMZ00277_自利不渴者，属太阴，以其脏有寒故也。当温之，宜服四逆辈" located at cell '病脉证set06'!A6.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00278_伤寒，脉浮而缓，手足自温者，系在太阴。太阴当发身黄，若小便自利者，不能发黄。至七八日，虽暴烦，下利，日十余行，必自止，以脾家实，腐秽当去故也。  # Generated from value "BMZ00278_伤寒，脉浮而缓，手足自温者，系在太阴。太阴当发身黄，若小便自利者，不能发黄。至七八日，虽暴烦，下利，日十余行，必自止，以脾家实，腐秽当去故也。" located at cell '病脉证set06'!A7.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00279_本太阳病，医反下之，因尔腹满时痛者，属太阴也，桂枝加芍药汤主之。大实痛者，桂枝加大黄汤主之。  # Generated from value "BMZ00279_本太阳病，医反下之，因尔腹满时痛者，属太阴也，桂枝加芍药汤主之。大实痛者，桂枝加大黄汤主之。" located at cell '病脉证set06'!A8.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+Individual: BMZ00280_太阴为病，脉弱，其人续自便利，设当行大黄、芍药者，宜减之，以其人胃气弱，易动故也。  # Generated from value "BMZ00280_太阴为病，脉弱，其人续自便利，设当行大黄、芍药者，宜减之，以其人胃气弱，易动故也。" located at cell '病脉证set06'!A9.
+   Types: 伤寒杂病论_06_辨太阴病脉证并治
+
+===========================================================================================================
+Date: 2024-05-12 11:59:15
+Ontology source: /D:/GitHub/Chinese_Medicine/cn-medo.rdf
+Worksheet source: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\病脉证set07.xlsx
+Transformation rules: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\伤寒杂病论.json
+
+# Cell range: (病脉证set07!A2:B46) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: BMZ00281_少阴之为病，脉微细，但欲寐也。  # Generated from value "BMZ00281_少阴之为病，脉微细，但欲寐也。" located at cell '病脉证set07'!A2.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00282_少阴病，欲吐不吐，心烦，但欲寐，五六日自利而渴者，属少阴也，虚故引水自救，若小便色白者，少阴病形悉具。小便白者，以下焦虚有寒，不能制水，故令色白也。  # Generated from value "BMZ00282_少阴病，欲吐不吐，心烦，但欲寐，五六日自利而渴者，属少阴也，虚故引水自救，若小便色白者，少阴病形悉具。小便白者，以下焦虚有寒，不能制水，故令色白也。" located at cell '病脉证set07'!A3.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00283_病人脉阴阳俱紧，反汗出者，亡阳也，此属少阴，法当咽痛，而复吐利。  # Generated from value "BMZ00283_病人脉阴阳俱紧，反汗出者，亡阳也，此属少阴，法当咽痛，而复吐利。" located at cell '病脉证set07'!A4.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00284_少阴病，咳而下利，谵语者，被火气劫故也，小便必难，以强责少阴汗也。  # Generated from value "BMZ00284_少阴病，咳而下利，谵语者，被火气劫故也，小便必难，以强责少阴汗也。" located at cell '病脉证set07'!A5.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00285_少阴病，脉细沉数，病为在里，不可发汗。  # Generated from value "BMZ00285_少阴病，脉细沉数，病为在里，不可发汗。" located at cell '病脉证set07'!A6.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00286_少阴病，脉微，不可发汗，亡阳故也；阳已虚，尺脉弱涩者，复不可下之。  # Generated from value "BMZ00286_少阴病，脉微，不可发汗，亡阳故也；阳已虚，尺脉弱涩者，复不可下之。" located at cell '病脉证set07'!A7.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00287_少阴病，脉紧，至七八日，自下利，脉暴微，手足反温，脉紧反去者，为欲解也，虽烦，下利，必自愈。  # Generated from value "BMZ00287_少阴病，脉紧，至七八日，自下利，脉暴微，手足反温，脉紧反去者，为欲解也，虽烦，下利，必自愈。" located at cell '病脉证set07'!A8.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00288_少阴病，下利，若利自止，恶寒而蜷卧，手足温者，可治。  # Generated from value "BMZ00288_少阴病，下利，若利自止，恶寒而蜷卧，手足温者，可治。" located at cell '病脉证set07'!A9.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00289_少阴病，恶寒而蜷，时自烦，欲去衣被者，可治。  # Generated from value "BMZ00289_少阴病，恶寒而蜷，时自烦，欲去衣被者，可治。" located at cell '病脉证set07'!A10.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00290_少阴中风，脉阳微阴浮者，为欲愈。  # Generated from value "BMZ00290_少阴中风，脉阳微阴浮者，为欲愈。" located at cell '病脉证set07'!A11.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00291_少阴病，欲解时，从子至寅上。  # Generated from value "BMZ00291_少阴病，欲解时，从子至寅上。" located at cell '病脉证set07'!A12.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00292_少阴病，吐，利，手足不逆冷，反发热者，不死。脉不至者，灸少阴七壮。  # Generated from value "BMZ00292_少阴病，吐，利，手足不逆冷，反发热者，不死。脉不至者，灸少阴七壮。" located at cell '病脉证set07'!A13.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00293_少阴病八九日，一身手足尽热者，以热在膀胱，必便血也。  # Generated from value "BMZ00293_少阴病八九日，一身手足尽热者，以热在膀胱，必便血也。" located at cell '病脉证set07'!A14.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00294_少阴病，但厥，无汗，而强发之，必动其血，未知从何道出，或从口鼻，或从目出者，是名下厥上竭，为难治。  # Generated from value "BMZ00294_少阴病，但厥，无汗，而强发之，必动其血，未知从何道出，或从口鼻，或从目出者，是名下厥上竭，为难治。" located at cell '病脉证set07'!A15.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00295_少阴病，恶寒，身蜷而利，手足逆冷者，不治。  # Generated from value "BMZ00295_少阴病，恶寒，身蜷而利，手足逆冷者，不治。" located at cell '病脉证set07'!A16.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00296_少阴病，吐，利，躁烦，四逆者，死。  # Generated from value "BMZ00296_少阴病，吐，利，躁烦，四逆者，死。" located at cell '病脉证set07'!A17.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00297_少阴病，下利止而头眩，时时自冒者，死。  # Generated from value "BMZ00297_少阴病，下利止而头眩，时时自冒者，死。" located at cell '病脉证set07'!A18.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00298_少阴病，四逆，恶寒而身蜷，脉不至，不烦而躁者，死。  # Generated from value "BMZ00298_少阴病，四逆，恶寒而身蜷，脉不至，不烦而躁者，死。" located at cell '病脉证set07'!A19.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00299_少阴病六七日，息高者，死。  # Generated from value "BMZ00299_少阴病六七日，息高者，死。" located at cell '病脉证set07'!A20.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00300_少阴病，脉微细沉，但欲卧，汗出不烦，自欲吐，至五六日，自利，复烦躁，不得卧寐者，死。  # Generated from value "BMZ00300_少阴病，脉微细沉，但欲卧，汗出不烦，自欲吐，至五六日，自利，复烦躁，不得卧寐者，死。" located at cell '病脉证set07'!A21.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00301_少阴病，始得之，反发热，脉沉者，麻黄细辛附子汤主之。  # Generated from value "BMZ00301_少阴病，始得之，反发热，脉沉者，麻黄细辛附子汤主之。" located at cell '病脉证set07'!A22.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00302_少阴病，得之二三日，麻黄附子甘草汤微发汗。以二三日无证，故微发汗也。  # Generated from value "BMZ00302_少阴病，得之二三日，麻黄附子甘草汤微发汗。以二三日无证，故微发汗也。" located at cell '病脉证set07'!A23.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00303_少阴病，得之二三日以上，心中烦，不得卧，黄连阿胶汤主之。  # Generated from value "BMZ00303_少阴病，得之二三日以上，心中烦，不得卧，黄连阿胶汤主之。" located at cell '病脉证set07'!A24.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00304_少阴病，得之一二日，口中和，其背恶寒者，当灸之，附子汤主之。  # Generated from value "BMZ00304_少阴病，得之一二日，口中和，其背恶寒者，当灸之，附子汤主之。" located at cell '病脉证set07'!A25.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00305_少阴病，身体痛，手足寒，骨节痛，脉沉者，附子汤主之。  # Generated from value "BMZ00305_少阴病，身体痛，手足寒，骨节痛，脉沉者，附子汤主之。" located at cell '病脉证set07'!A26.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00306_少阴病，下利，便脓血者，桃花汤主之。  # Generated from value "BMZ00306_少阴病，下利，便脓血者，桃花汤主之。" located at cell '病脉证set07'!A27.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00307_少阴病二三日至四五日，腹痛，小便不利，下利不止，便脓血者，桃花汤主之。  # Generated from value "BMZ00307_少阴病二三日至四五日，腹痛，小便不利，下利不止，便脓血者，桃花汤主之。" located at cell '病脉证set07'!A28.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00308_少阴病，下利便脓血者，可刺。  # Generated from value "BMZ00308_少阴病，下利便脓血者，可刺。" located at cell '病脉证set07'!A29.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00309_少阴病，吐利，手足逆冷，烦躁欲死者，吴茱萸汤主之。  # Generated from value "BMZ00309_少阴病，吐利，手足逆冷，烦躁欲死者，吴茱萸汤主之。" located at cell '病脉证set07'!A30.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00310_少阴病，下利，咽痛，胸满，心烦，猪肤汤主之。  # Generated from value "BMZ00310_少阴病，下利，咽痛，胸满，心烦，猪肤汤主之。" located at cell '病脉证set07'!A31.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00311_少阴病二三日，咽痛者，可与甘草汤。不差，与桔梗汤。  # Generated from value "BMZ00311_少阴病二三日，咽痛者，可与甘草汤。不差，与桔梗汤。" located at cell '病脉证set07'!A32.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00312_少阴病，咽中伤，生疮，不能语言，声不出者，苦酒汤主之。  # Generated from value "BMZ00312_少阴病，咽中伤，生疮，不能语言，声不出者，苦酒汤主之。" located at cell '病脉证set07'!A33.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00313_少阴病，咽中痛，半夏散及汤主之。  # Generated from value "BMZ00313_少阴病，咽中痛，半夏散及汤主之。" located at cell '病脉证set07'!A34.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00314_少阴病，下利，白通汤主之。  # Generated from value "BMZ00314_少阴病，下利，白通汤主之。" located at cell '病脉证set07'!A35.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00315_少阴病，下利，脉微者，与白通汤。利不止，厥逆无脉，干呕，烦者，白通加猪胆汁汤主之。服汤，脉暴出者，死；微续者，生。  # Generated from value "BMZ00315_少阴病，下利，脉微者，与白通汤。利不止，厥逆无脉，干呕，烦者，白通加猪胆汁汤主之。服汤，脉暴出者，死；微续者，生。" located at cell '病脉证set07'!A36.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00316_少阴病，二三日不已，至四五日，腹痛，小便不利，四肢沉重，疼痛，自下利者，此为有水气。其人或咳，或小便利，或下利，或呕者，真武汤主之。  # Generated from value "BMZ00316_少阴病，二三日不已，至四五日，腹痛，小便不利，四肢沉重，疼痛，自下利者，此为有水气。其人或咳，或小便利，或下利，或呕者，真武汤主之。" located at cell '病脉证set07'!A37.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00317_少阴病，下利清谷，里寒外热，手足厥逆，脉微欲绝，身反不恶寒，其人面色赤，或腹痛，或干呕，或咽痛，或利止脉不出者，通脉四逆汤主之。  # Generated from value "BMZ00317_少阴病，下利清谷，里寒外热，手足厥逆，脉微欲绝，身反不恶寒，其人面色赤，或腹痛，或干呕，或咽痛，或利止脉不出者，通脉四逆汤主之。" located at cell '病脉证set07'!A38.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00318_少阴病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。  # Generated from value "BMZ00318_少阴病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。" located at cell '病脉证set07'!A39.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00319_少阴病，下利六七日，咳而呕渴，心烦不得眠者，猪苓汤主之。  # Generated from value "BMZ00319_少阴病，下利六七日，咳而呕渴，心烦不得眠者，猪苓汤主之。" located at cell '病脉证set07'!A40.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00320_少阴病，得之二三日，口燥，咽干者，急下之，宜大承气汤。  # Generated from value "BMZ00320_少阴病，得之二三日，口燥，咽干者，急下之，宜大承气汤。" located at cell '病脉证set07'!A41.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00321_少阴病，自利清水，色纯青，心下必痛，口干燥者，可下之，宜大承气汤。  # Generated from value "BMZ00321_少阴病，自利清水，色纯青，心下必痛，口干燥者，可下之，宜大承气汤。" located at cell '病脉证set07'!A42.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00322_少阴病六七日，腹胀，不大便者，急下之，宜大承气汤。  # Generated from value "BMZ00322_少阴病六七日，腹胀，不大便者，急下之，宜大承气汤。" located at cell '病脉证set07'!A43.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00323_少阴病，脉沉者，急温之，宜四逆汤。  # Generated from value "BMZ00323_少阴病，脉沉者，急温之，宜四逆汤。" located at cell '病脉证set07'!A44.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00324_少阴病，饮食入口则吐，心中温温欲吐，复不能吐。始得之，手足寒，脉弦迟者，此胸中实，不可下也，当吐之。若膈上有寒饮，干呕者，不可吐也，当温之，宜四逆汤。  # Generated from value "BMZ00324_少阴病，饮食入口则吐，心中温温欲吐，复不能吐。始得之，手足寒，脉弦迟者，此胸中实，不可下也，当吐之。若膈上有寒饮，干呕者，不可吐也，当温之，宜四逆汤。" located at cell '病脉证set07'!A45.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00325_少阴病，下利，脉微涩，呕而汗出，必数更衣，反少者，当温其上，灸之。  # Generated from value "BMZ00325_少阴病，下利，脉微涩，呕而汗出，必数更衣，反少者，当温其上，灸之。" located at cell '病脉证set07'!A46.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00281_少阴之为病，脉微细，但欲寐也。  # Generated from value "BMZ00281_少阴之为病，脉微细，但欲寐也。" located at cell '病脉证set07'!A2.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00282_少阴病，欲吐不吐，心烦，但欲寐，五六日自利而渴者，属少阴也，虚故引水自救，若小便色白者，少阴病形悉具。小便白者，以下焦虚有寒，不能制水，故令色白也。  # Generated from value "BMZ00282_少阴病，欲吐不吐，心烦，但欲寐，五六日自利而渴者，属少阴也，虚故引水自救，若小便色白者，少阴病形悉具。小便白者，以下焦虚有寒，不能制水，故令色白也。" located at cell '病脉证set07'!A3.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00283_病人脉阴阳俱紧，反汗出者，亡阳也，此属少阴，法当咽痛，而复吐利。  # Generated from value "BMZ00283_病人脉阴阳俱紧，反汗出者，亡阳也，此属少阴，法当咽痛，而复吐利。" located at cell '病脉证set07'!A4.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00284_少阴病，咳而下利，谵语者，被火气劫故也，小便必难，以强责少阴汗也。  # Generated from value "BMZ00284_少阴病，咳而下利，谵语者，被火气劫故也，小便必难，以强责少阴汗也。" located at cell '病脉证set07'!A5.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00285_少阴病，脉细沉数，病为在里，不可发汗。  # Generated from value "BMZ00285_少阴病，脉细沉数，病为在里，不可发汗。" located at cell '病脉证set07'!A6.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00286_少阴病，脉微，不可发汗，亡阳故也；阳已虚，尺脉弱涩者，复不可下之。  # Generated from value "BMZ00286_少阴病，脉微，不可发汗，亡阳故也；阳已虚，尺脉弱涩者，复不可下之。" located at cell '病脉证set07'!A7.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00287_少阴病，脉紧，至七八日，自下利，脉暴微，手足反温，脉紧反去者，为欲解也，虽烦，下利，必自愈。  # Generated from value "BMZ00287_少阴病，脉紧，至七八日，自下利，脉暴微，手足反温，脉紧反去者，为欲解也，虽烦，下利，必自愈。" located at cell '病脉证set07'!A8.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00288_少阴病，下利，若利自止，恶寒而蜷卧，手足温者，可治。  # Generated from value "BMZ00288_少阴病，下利，若利自止，恶寒而蜷卧，手足温者，可治。" located at cell '病脉证set07'!A9.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00289_少阴病，恶寒而蜷，时自烦，欲去衣被者，可治。  # Generated from value "BMZ00289_少阴病，恶寒而蜷，时自烦，欲去衣被者，可治。" located at cell '病脉证set07'!A10.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00290_少阴中风，脉阳微阴浮者，为欲愈。  # Generated from value "BMZ00290_少阴中风，脉阳微阴浮者，为欲愈。" located at cell '病脉证set07'!A11.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00291_少阴病，欲解时，从子至寅上。  # Generated from value "BMZ00291_少阴病，欲解时，从子至寅上。" located at cell '病脉证set07'!A12.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00292_少阴病，吐，利，手足不逆冷，反发热者，不死。脉不至者，灸少阴七壮。  # Generated from value "BMZ00292_少阴病，吐，利，手足不逆冷，反发热者，不死。脉不至者，灸少阴七壮。" located at cell '病脉证set07'!A13.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00293_少阴病八九日，一身手足尽热者，以热在膀胱，必便血也。  # Generated from value "BMZ00293_少阴病八九日，一身手足尽热者，以热在膀胱，必便血也。" located at cell '病脉证set07'!A14.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00294_少阴病，但厥，无汗，而强发之，必动其血，未知从何道出，或从口鼻，或从目出者，是名下厥上竭，为难治。  # Generated from value "BMZ00294_少阴病，但厥，无汗，而强发之，必动其血，未知从何道出，或从口鼻，或从目出者，是名下厥上竭，为难治。" located at cell '病脉证set07'!A15.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00295_少阴病，恶寒，身蜷而利，手足逆冷者，不治。  # Generated from value "BMZ00295_少阴病，恶寒，身蜷而利，手足逆冷者，不治。" located at cell '病脉证set07'!A16.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00296_少阴病，吐，利，躁烦，四逆者，死。  # Generated from value "BMZ00296_少阴病，吐，利，躁烦，四逆者，死。" located at cell '病脉证set07'!A17.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00297_少阴病，下利止而头眩，时时自冒者，死。  # Generated from value "BMZ00297_少阴病，下利止而头眩，时时自冒者，死。" located at cell '病脉证set07'!A18.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00298_少阴病，四逆，恶寒而身蜷，脉不至，不烦而躁者，死。  # Generated from value "BMZ00298_少阴病，四逆，恶寒而身蜷，脉不至，不烦而躁者，死。" located at cell '病脉证set07'!A19.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00299_少阴病六七日，息高者，死。  # Generated from value "BMZ00299_少阴病六七日，息高者，死。" located at cell '病脉证set07'!A20.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00300_少阴病，脉微细沉，但欲卧，汗出不烦，自欲吐，至五六日，自利，复烦躁，不得卧寐者，死。  # Generated from value "BMZ00300_少阴病，脉微细沉，但欲卧，汗出不烦，自欲吐，至五六日，自利，复烦躁，不得卧寐者，死。" located at cell '病脉证set07'!A21.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00301_少阴病，始得之，反发热，脉沉者，麻黄细辛附子汤主之。  # Generated from value "BMZ00301_少阴病，始得之，反发热，脉沉者，麻黄细辛附子汤主之。" located at cell '病脉证set07'!A22.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00302_少阴病，得之二三日，麻黄附子甘草汤微发汗。以二三日无证，故微发汗也。  # Generated from value "BMZ00302_少阴病，得之二三日，麻黄附子甘草汤微发汗。以二三日无证，故微发汗也。" located at cell '病脉证set07'!A23.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00303_少阴病，得之二三日以上，心中烦，不得卧，黄连阿胶汤主之。  # Generated from value "BMZ00303_少阴病，得之二三日以上，心中烦，不得卧，黄连阿胶汤主之。" located at cell '病脉证set07'!A24.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00304_少阴病，得之一二日，口中和，其背恶寒者，当灸之，附子汤主之。  # Generated from value "BMZ00304_少阴病，得之一二日，口中和，其背恶寒者，当灸之，附子汤主之。" located at cell '病脉证set07'!A25.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00305_少阴病，身体痛，手足寒，骨节痛，脉沉者，附子汤主之。  # Generated from value "BMZ00305_少阴病，身体痛，手足寒，骨节痛，脉沉者，附子汤主之。" located at cell '病脉证set07'!A26.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00306_少阴病，下利，便脓血者，桃花汤主之。  # Generated from value "BMZ00306_少阴病，下利，便脓血者，桃花汤主之。" located at cell '病脉证set07'!A27.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00307_少阴病二三日至四五日，腹痛，小便不利，下利不止，便脓血者，桃花汤主之。  # Generated from value "BMZ00307_少阴病二三日至四五日，腹痛，小便不利，下利不止，便脓血者，桃花汤主之。" located at cell '病脉证set07'!A28.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00308_少阴病，下利便脓血者，可刺。  # Generated from value "BMZ00308_少阴病，下利便脓血者，可刺。" located at cell '病脉证set07'!A29.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00309_少阴病，吐利，手足逆冷，烦躁欲死者，吴茱萸汤主之。  # Generated from value "BMZ00309_少阴病，吐利，手足逆冷，烦躁欲死者，吴茱萸汤主之。" located at cell '病脉证set07'!A30.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00310_少阴病，下利，咽痛，胸满，心烦，猪肤汤主之。  # Generated from value "BMZ00310_少阴病，下利，咽痛，胸满，心烦，猪肤汤主之。" located at cell '病脉证set07'!A31.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00311_少阴病二三日，咽痛者，可与甘草汤。不差，与桔梗汤。  # Generated from value "BMZ00311_少阴病二三日，咽痛者，可与甘草汤。不差，与桔梗汤。" located at cell '病脉证set07'!A32.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00312_少阴病，咽中伤，生疮，不能语言，声不出者，苦酒汤主之。  # Generated from value "BMZ00312_少阴病，咽中伤，生疮，不能语言，声不出者，苦酒汤主之。" located at cell '病脉证set07'!A33.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00313_少阴病，咽中痛，半夏散及汤主之。  # Generated from value "BMZ00313_少阴病，咽中痛，半夏散及汤主之。" located at cell '病脉证set07'!A34.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00314_少阴病，下利，白通汤主之。  # Generated from value "BMZ00314_少阴病，下利，白通汤主之。" located at cell '病脉证set07'!A35.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00315_少阴病，下利，脉微者，与白通汤。利不止，厥逆无脉，干呕，烦者，白通加猪胆汁汤主之。服汤，脉暴出者，死；微续者，生。  # Generated from value "BMZ00315_少阴病，下利，脉微者，与白通汤。利不止，厥逆无脉，干呕，烦者，白通加猪胆汁汤主之。服汤，脉暴出者，死；微续者，生。" located at cell '病脉证set07'!A36.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00316_少阴病，二三日不已，至四五日，腹痛，小便不利，四肢沉重，疼痛，自下利者，此为有水气。其人或咳，或小便利，或下利，或呕者，真武汤主之。  # Generated from value "BMZ00316_少阴病，二三日不已，至四五日，腹痛，小便不利，四肢沉重，疼痛，自下利者，此为有水气。其人或咳，或小便利，或下利，或呕者，真武汤主之。" located at cell '病脉证set07'!A37.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00317_少阴病，下利清谷，里寒外热，手足厥逆，脉微欲绝，身反不恶寒，其人面色赤，或腹痛，或干呕，或咽痛，或利止脉不出者，通脉四逆汤主之。  # Generated from value "BMZ00317_少阴病，下利清谷，里寒外热，手足厥逆，脉微欲绝，身反不恶寒，其人面色赤，或腹痛，或干呕，或咽痛，或利止脉不出者，通脉四逆汤主之。" located at cell '病脉证set07'!A38.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00318_少阴病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。  # Generated from value "BMZ00318_少阴病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。" located at cell '病脉证set07'!A39.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00319_少阴病，下利六七日，咳而呕渴，心烦不得眠者，猪苓汤主之。  # Generated from value "BMZ00319_少阴病，下利六七日，咳而呕渴，心烦不得眠者，猪苓汤主之。" located at cell '病脉证set07'!A40.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00320_少阴病，得之二三日，口燥，咽干者，急下之，宜大承气汤。  # Generated from value "BMZ00320_少阴病，得之二三日，口燥，咽干者，急下之，宜大承气汤。" located at cell '病脉证set07'!A41.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00321_少阴病，自利清水，色纯青，心下必痛，口干燥者，可下之，宜大承气汤。  # Generated from value "BMZ00321_少阴病，自利清水，色纯青，心下必痛，口干燥者，可下之，宜大承气汤。" located at cell '病脉证set07'!A42.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00322_少阴病六七日，腹胀，不大便者，急下之，宜大承气汤。  # Generated from value "BMZ00322_少阴病六七日，腹胀，不大便者，急下之，宜大承气汤。" located at cell '病脉证set07'!A43.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00323_少阴病，脉沉者，急温之，宜四逆汤。  # Generated from value "BMZ00323_少阴病，脉沉者，急温之，宜四逆汤。" located at cell '病脉证set07'!A44.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00324_少阴病，饮食入口则吐，心中温温欲吐，复不能吐。始得之，手足寒，脉弦迟者，此胸中实，不可下也，当吐之。若膈上有寒饮，干呕者，不可吐也，当温之，宜四逆汤。  # Generated from value "BMZ00324_少阴病，饮食入口则吐，心中温温欲吐，复不能吐。始得之，手足寒，脉弦迟者，此胸中实，不可下也，当吐之。若膈上有寒饮，干呕者，不可吐也，当温之，宜四逆汤。" located at cell '病脉证set07'!A45.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+Individual: BMZ00325_少阴病，下利，脉微涩，呕而汗出，必数更衣，反少者，当温其上，灸之。  # Generated from value "BMZ00325_少阴病，下利，脉微涩，呕而汗出，必数更衣，反少者，当温其上，灸之。" located at cell '病脉证set07'!A46.
+   Types: 伤寒杂病论_07_辨少阴病脉证并治
+
+===========================================================================================================
