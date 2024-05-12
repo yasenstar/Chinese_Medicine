@@ -1966,3 +1966,54 @@ Individual: BMZ00381_伤寒，哕而腹满，视其前后，知何部不利，�
    Types: 伤寒杂病论_08_辨厥阴病脉证并治
 
 ===========================================================================================================
+Date: 2024-05-12 15:41:01
+Ontology source: /D:/GitHub/Chinese_Medicine/cn-medo.rdf
+Worksheet source: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\病脉证set09.xlsx
+Transformation rules: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\伤寒杂病论.json
+
+# Cell range: (病脉证set09!A2:B11) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: BMZ00382_问曰：病有霍乱者何？答曰：呕吐而利，此名霍乱。  # Generated from value "BMZ00382_问曰：病有霍乱者何？答曰：呕吐而利，此名霍乱。" located at cell '病脉证set09'!A2.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00383_问曰：病发热，头痛，身疼，恶寒，吐利者，此属何病？答曰：此名霍乱。霍乱自吐下，又利止，复更发热也。  # Generated from value "BMZ00383_问曰：病发热，头痛，身疼，恶寒，吐利者，此属何病？答曰：此名霍乱。霍乱自吐下，又利止，复更发热也。" located at cell '病脉证set09'!A3.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00384_伤寒，其脉微涩者，本是霍乱，今是伤寒，却四五日，至阴经上，转入阴，必利；本呕，下利者，不可治也。欲似大便，而反失气，仍不利者，此属阳明也。便必硬，十三日愈。所以然者，经尽故也。下利后，当便鞕，鞕则能食者愈。今反不能食，到后经中，颇能食，复过一经能食，过之一日当愈；不愈者，不属阳明也。  # Generated from value "BMZ00384_伤寒，其脉微涩者，本是霍乱，今是伤寒，却四五日，至阴经上，转入阴，必利；本呕，下利者，不可治也。欲似大便，而反失气，仍不利者，此属阳明也。便必硬，十三日愈。所以然者，经尽故也。下利后，当便鞕，鞕则能食者愈。今反不能食，到后经中，颇能食，复过一经能食，过之一日当愈；不愈者，不属阳明也。" located at cell '病脉证set09'!A4.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00385_恶寒，脉微而复利，利止，亡血也，四逆加人参汤主之。  # Generated from value "BMZ00385_恶寒，脉微而复利，利止，亡血也，四逆加人参汤主之。" located at cell '病脉证set09'!A5.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00386_霍乱，头痛，发热，身疼痛，热多欲饮水者，五苓散主之；寒多不用水者，理中丸主之。  # Generated from value "BMZ00386_霍乱，头痛，发热，身疼痛，热多欲饮水者，五苓散主之；寒多不用水者，理中丸主之。" located at cell '病脉证set09'!A6.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00387_吐利止而身痛不休者，当消息和解其外，宜桂枝汤小和之。  # Generated from value "BMZ00387_吐利止而身痛不休者，当消息和解其外，宜桂枝汤小和之。" located at cell '病脉证set09'!A7.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00388_吐利，汗出，发热，恶寒，四肢拘急，手足厥冷者，四逆汤主之。  # Generated from value "BMZ00388_吐利，汗出，发热，恶寒，四肢拘急，手足厥冷者，四逆汤主之。" located at cell '病脉证set09'!A8.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00389_既吐且利，小便复利，而大汗出，下利清谷，内寒外热，脉微欲绝者，四逆汤主之。  # Generated from value "BMZ00389_既吐且利，小便复利，而大汗出，下利清谷，内寒外热，脉微欲绝者，四逆汤主之。" located at cell '病脉证set09'!A9.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00390_吐已下断，汗出而厥，四肢拘急不解，脉微欲绝者，通脉四逆加猪胆汤主之。  # Generated from value "BMZ00390_吐已下断，汗出而厥，四肢拘急不解，脉微欲绝者，通脉四逆加猪胆汤主之。" located at cell '病脉证set09'!A10.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00391_吐利，发汗，脉平，小烦者，以新虚，不胜谷气故也。  # Generated from value "BMZ00391_吐利，发汗，脉平，小烦者，以新虚，不胜谷气故也。" located at cell '病脉证set09'!A11.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00382_问曰：病有霍乱者何？答曰：呕吐而利，此名霍乱。  # Generated from value "BMZ00382_问曰：病有霍乱者何？答曰：呕吐而利，此名霍乱。" located at cell '病脉证set09'!A2.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00383_问曰：病发热，头痛，身疼，恶寒，吐利者，此属何病？答曰：此名霍乱。霍乱自吐下，又利止，复更发热也。  # Generated from value "BMZ00383_问曰：病发热，头痛，身疼，恶寒，吐利者，此属何病？答曰：此名霍乱。霍乱自吐下，又利止，复更发热也。" located at cell '病脉证set09'!A3.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00384_伤寒，其脉微涩者，本是霍乱，今是伤寒，却四五日，至阴经上，转入阴，必利；本呕，下利者，不可治也。欲似大便，而反失气，仍不利者，此属阳明也。便必硬，十三日愈。所以然者，经尽故也。下利后，当便鞕，鞕则能食者愈。今反不能食，到后经中，颇能食，复过一经能食，过之一日当愈；不愈者，不属阳明也。  # Generated from value "BMZ00384_伤寒，其脉微涩者，本是霍乱，今是伤寒，却四五日，至阴经上，转入阴，必利；本呕，下利者，不可治也。欲似大便，而反失气，仍不利者，此属阳明也。便必硬，十三日愈。所以然者，经尽故也。下利后，当便鞕，鞕则能食者愈。今反不能食，到后经中，颇能食，复过一经能食，过之一日当愈；不愈者，不属阳明也。" located at cell '病脉证set09'!A4.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00385_恶寒，脉微而复利，利止，亡血也，四逆加人参汤主之。  # Generated from value "BMZ00385_恶寒，脉微而复利，利止，亡血也，四逆加人参汤主之。" located at cell '病脉证set09'!A5.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00386_霍乱，头痛，发热，身疼痛，热多欲饮水者，五苓散主之；寒多不用水者，理中丸主之。  # Generated from value "BMZ00386_霍乱，头痛，发热，身疼痛，热多欲饮水者，五苓散主之；寒多不用水者，理中丸主之。" located at cell '病脉证set09'!A6.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00387_吐利止而身痛不休者，当消息和解其外，宜桂枝汤小和之。  # Generated from value "BMZ00387_吐利止而身痛不休者，当消息和解其外，宜桂枝汤小和之。" located at cell '病脉证set09'!A7.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00388_吐利，汗出，发热，恶寒，四肢拘急，手足厥冷者，四逆汤主之。  # Generated from value "BMZ00388_吐利，汗出，发热，恶寒，四肢拘急，手足厥冷者，四逆汤主之。" located at cell '病脉证set09'!A8.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00389_既吐且利，小便复利，而大汗出，下利清谷，内寒外热，脉微欲绝者，四逆汤主之。  # Generated from value "BMZ00389_既吐且利，小便复利，而大汗出，下利清谷，内寒外热，脉微欲绝者，四逆汤主之。" located at cell '病脉证set09'!A9.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00390_吐已下断，汗出而厥，四肢拘急不解，脉微欲绝者，通脉四逆加猪胆汤主之。  # Generated from value "BMZ00390_吐已下断，汗出而厥，四肢拘急不解，脉微欲绝者，通脉四逆加猪胆汤主之。" located at cell '病脉证set09'!A10.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+Individual: BMZ00391_吐利，发汗，脉平，小烦者，以新虚，不胜谷气故也。  # Generated from value "BMZ00391_吐利，发汗，脉平，小烦者，以新虚，不胜谷气故也。" located at cell '病脉证set09'!A11.
+   Types: 伤寒杂病论_09_辨霍乱病脉证并治
+
+===========================================================================================================
