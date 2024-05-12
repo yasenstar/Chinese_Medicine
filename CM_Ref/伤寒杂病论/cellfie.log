@@ -1731,3 +1731,238 @@ Individual: BMZ00325_少阴病，下利，脉微涩，呕而汗出，必数更�
    Types: 伤寒杂病论_07_辨少阴病脉证并治
 
 ===========================================================================================================
+Date: 2024-05-12 12:53:18
+Ontology source: /D:/GitHub/Chinese_Medicine/cn-medo.rdf
+Worksheet source: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\病脉证set08.xlsx
+Transformation rules: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\伤寒杂病论.json
+
+# Cell range: (病脉证set08!A2:B57) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: BMZ00326_厥阴之为病，消渴，气上撞心，心中疼热，饥而不欲食，食则吐蛔。下之，利不止。  # Generated from value "BMZ00326_厥阴之为病，消渴，气上撞心，心中疼热，饥而不欲食，食则吐蛔。下之，利不止。" located at cell '病脉证set08'!A2.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00327_厥阴中风，脉微浮，为欲愈，不浮，为未愈。  # Generated from value "BMZ00327_厥阴中风，脉微浮，为欲愈，不浮，为未愈。" located at cell '病脉证set08'!A3.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00328_厥阴病，欲解时，从丑至卯上。  # Generated from value "BMZ00328_厥阴病，欲解时，从丑至卯上。" located at cell '病脉证set08'!A4.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00329_厥阴病，渴欲饮水者，少少与之愈。  # Generated from value "BMZ00329_厥阴病，渴欲饮水者，少少与之愈。" located at cell '病脉证set08'!A5.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00330_诸四逆厥者，不可下之，虚家亦然。  # Generated from value "BMZ00330_诸四逆厥者，不可下之，虚家亦然。" located at cell '病脉证set08'!A6.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00331_伤寒，先厥后发热，而利者必自止，见厥复利。  # Generated from value "BMZ00331_伤寒，先厥后发热，而利者必自止，见厥复利。" located at cell '病脉证set08'!A7.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00332_伤寒，始发热六日，厥反九日而利。凡厥利者，当不能食；今反能食者，恐为除中。食以索饼，不发热者，知胃气尚在，必愈。恐暴热来出而复去也。后日脉之，其热续在者，期之旦日夜半愈。所以然者，本发热六日，厥反九日，复发热三日，并前六日，亦为九日，与厥相应，故期之旦日夜半愈。后三日脉之而脉数，其热不罢者，此为热气有余，必发痈脓也。  # Generated from value "BMZ00332_伤寒，始发热六日，厥反九日而利。凡厥利者，当不能食；今反能食者，恐为除中。食以索饼，不发热者，知胃气尚在，必愈。恐暴热来出而复去也。后日脉之，其热续在者，期之旦日夜半愈。所以然者，本发热六日，厥反九日，复发热三日，并前六日，亦为九日，与厥相应，故期之旦日夜半愈。后三日脉之而脉数，其热不罢者，此为热气有余，必发痈脓也。" located at cell '病脉证set08'!A8.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00333_伤寒，脉迟六七日，而反与黄芩汤彻其热。脉迟为寒，今与黄芩汤，复除其热，腹中应冷，当不能食，今反能食，此名除中，必死。  # Generated from value "BMZ00333_伤寒，脉迟六七日，而反与黄芩汤彻其热。脉迟为寒，今与黄芩汤，复除其热，腹中应冷，当不能食，今反能食，此名除中，必死。" located at cell '病脉证set08'!A9.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00334_伤寒，先厥后发热，下利必自止。而反汗出，咽中痛者，其喉为痹。发热无汗，而利必自止；若不止，必便脓血。便脓血者，其喉不痹。  # Generated from value "BMZ00334_伤寒，先厥后发热，下利必自止。而反汗出，咽中痛者，其喉为痹。发热无汗，而利必自止；若不止，必便脓血。便脓血者，其喉不痹。" located at cell '病脉证set08'!A10.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00335_伤寒一二日至四五日，厥者必发热。前热者后必厥。厥深者，热亦深；厥微者，热亦微。厥应下之，而反发汗者，必口伤烂赤。  # Generated from value "BMZ00335_伤寒一二日至四五日，厥者必发热。前热者后必厥。厥深者，热亦深；厥微者，热亦微。厥应下之，而反发汗者，必口伤烂赤。" located at cell '病脉证set08'!A11.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00336_伤寒，病厥五日，热亦五日。设六日当复厥，不厥者，自愈。厥终不过五日，以热五日，故知自愈。  # Generated from value "BMZ00336_伤寒，病厥五日，热亦五日。设六日当复厥，不厥者，自愈。厥终不过五日，以热五日，故知自愈。" located at cell '病脉证set08'!A12.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00337_凡厥者，阴阳气不相顺接，便为厥。厥者，手足逆冷者是也。  # Generated from value "BMZ00337_凡厥者，阴阳气不相顺接，便为厥。厥者，手足逆冷者是也。" located at cell '病脉证set08'!A13.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00338_伤寒，脉微而厥，至七八日肤冷，其人躁无暂安时者，此为脏厥，非蛔厥也。蛔厥者，其人当吐蛔。今病者静，而复时烦者，此为脏寒。蛔上入其膈，故烦，须臾复止；得食而呕，又烦者，蛔闻食臭出，其人常自吐蛔。蛔厥者，乌梅丸主之。又主久利。  # Generated from value "BMZ00338_伤寒，脉微而厥，至七八日肤冷，其人躁无暂安时者，此为脏厥，非蛔厥也。蛔厥者，其人当吐蛔。今病者静，而复时烦者，此为脏寒。蛔上入其膈，故烦，须臾复止；得食而呕，又烦者，蛔闻食臭出，其人常自吐蛔。蛔厥者，乌梅丸主之。又主久利。" located at cell '病脉证set08'!A14.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00339_伤寒，热少微厥，指头寒，嘿嘿不欲食，烦躁。数日，小便利，色白者，此热除也。欲得食，其病为愈；若厥而呕，胸胁烦满者，其后必便血。  # Generated from value "BMZ00339_伤寒，热少微厥，指头寒，嘿嘿不欲食，烦躁。数日，小便利，色白者，此热除也。欲得食，其病为愈；若厥而呕，胸胁烦满者，其后必便血。" located at cell '病脉证set08'!A15.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00340_病者手足厥冷，言我不结胸，小腹满，按之痛者，此冷结在膀胱关元也。  # Generated from value "BMZ00340_病者手足厥冷，言我不结胸，小腹满，按之痛者，此冷结在膀胱关元也。" located at cell '病脉证set08'!A16.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00341_伤寒，发热四日，厥反三日，复热四日，厥少热多者，其病当愈。四日至七日，热不除者，必便脓血。  # Generated from value "BMZ00341_伤寒，发热四日，厥反三日，复热四日，厥少热多者，其病当愈。四日至七日，热不除者，必便脓血。" located at cell '病脉证set08'!A17.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00342_伤寒，厥四日，热反三日，复厥五日，其病为进。寒多热少，阳气退，故为进也。  # Generated from value "BMZ00342_伤寒，厥四日，热反三日，复厥五日，其病为进。寒多热少，阳气退，故为进也。" located at cell '病脉证set08'!A18.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00343_伤寒六七日，脉微，手足厥冷，烦躁，灸厥阴，厥不还者，死。  # Generated from value "BMZ00343_伤寒六七日，脉微，手足厥冷，烦躁，灸厥阴，厥不还者，死。" located at cell '病脉证set08'!A19.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00344_伤寒，发热，下利，厥逆，躁不得卧者，死。  # Generated from value "BMZ00344_伤寒，发热，下利，厥逆，躁不得卧者，死。" located at cell '病脉证set08'!A20.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00345_伤寒，发热，下利至甚，厥不止者，死。  # Generated from value "BMZ00345_伤寒，发热，下利至甚，厥不止者，死。" located at cell '病脉证set08'!A21.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00346_伤寒六七日，不利，便发热而利，其人汗出不止者，死。有阴无阳故也。  # Generated from value "BMZ00346_伤寒六七日，不利，便发热而利，其人汗出不止者，死。有阴无阳故也。" located at cell '病脉证set08'!A22.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00347_伤寒五六日，不结胸，腹濡，脉虚，复厥者，不可下，此亡血，下之死  # Generated from value "BMZ00347_伤寒五六日，不结胸，腹濡，脉虚，复厥者，不可下，此亡血，下之死" located at cell '病脉证set08'!A23.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00348_发热而厥，七日下利者，为难治。  # Generated from value "BMZ00348_发热而厥，七日下利者，为难治。" located at cell '病脉证set08'!A24.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00349_伤寒，脉促，手足厥逆，可灸之。  # Generated from value "BMZ00349_伤寒，脉促，手足厥逆，可灸之。" located at cell '病脉证set08'!A25.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00350_伤寒，脉滑而厥者，里有热，白虎汤主之。  # Generated from value "BMZ00350_伤寒，脉滑而厥者，里有热，白虎汤主之。" located at cell '病脉证set08'!A26.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00351_手足厥寒，脉细欲绝者，当归四逆汤主之。  # Generated from value "BMZ00351_手足厥寒，脉细欲绝者，当归四逆汤主之。" located at cell '病脉证set08'!A27.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00352_若其人内有久寒者，宜当归四逆加吴茱萸生姜汤。  # Generated from value "BMZ00352_若其人内有久寒者，宜当归四逆加吴茱萸生姜汤。" located at cell '病脉证set08'!A28.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00353_大汗出，热不去，内拘急，四肢疼，又下利厥逆而恶寒者，四逆汤主之。  # Generated from value "BMZ00353_大汗出，热不去，内拘急，四肢疼，又下利厥逆而恶寒者，四逆汤主之。" located at cell '病脉证set08'!A29.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00354_大汗，若大下利而厥冷者，四逆汤主之。  # Generated from value "BMZ00354_大汗，若大下利而厥冷者，四逆汤主之。" located at cell '病脉证set08'!A30.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00355_病人手足厥冷，脉乍紧者，邪结在胸中，心下满而烦，饥不能食者，病在胸中，当须吐之，宜瓜蒂散。  # Generated from value "BMZ00355_病人手足厥冷，脉乍紧者，邪结在胸中，心下满而烦，饥不能食者，病在胸中，当须吐之，宜瓜蒂散。" located at cell '病脉证set08'!A31.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00356_伤寒，厥而心下悸，宜先治水，当服茯苓甘草汤，却治其厥。不尔，水渍入胃，必作利也。  # Generated from value "BMZ00356_伤寒，厥而心下悸，宜先治水，当服茯苓甘草汤，却治其厥。不尔，水渍入胃，必作利也。" located at cell '病脉证set08'!A32.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00357_伤寒六七日，大下后，寸脉沉而迟，手足厥逆，下部脉不至，喉咽不利，唾脓血，泄利不止者，为难治，麻黄升麻汤主之。  # Generated from value "BMZ00357_伤寒六七日，大下后，寸脉沉而迟，手足厥逆，下部脉不至，喉咽不利，唾脓血，泄利不止者，为难治，麻黄升麻汤主之。" located at cell '病脉证set08'!A33.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00358_伤寒四五日，腹中痛，若转气下趣少腹者，此欲自利也。  # Generated from value "BMZ00358_伤寒四五日，腹中痛，若转气下趣少腹者，此欲自利也。" located at cell '病脉证set08'!A34.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00359_伤寒，本自寒下，医复吐下之，寒格，更逆吐下，若食入口即吐，干姜黄芩黄连人参汤主之。  # Generated from value "BMZ00359_伤寒，本自寒下，医复吐下之，寒格，更逆吐下，若食入口即吐，干姜黄芩黄连人参汤主之。" located at cell '病脉证set08'!A35.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00360_下利，有微热而渴，脉弱者，今自愈。  # Generated from value "BMZ00360_下利，有微热而渴，脉弱者，今自愈。" located at cell '病脉证set08'!A36.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00361_下利，脉数，有微热汗出，今自愈。设复紧，为未解。  # Generated from value "BMZ00361_下利，脉数，有微热汗出，今自愈。设复紧，为未解。" located at cell '病脉证set08'!A37.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00362_下利，手足厥冷，无脉者，灸之不温，若脉不还，反微喘者，死。少阴负跌阳者，为顺也。  # Generated from value "BMZ00362_下利，手足厥冷，无脉者，灸之不温，若脉不还，反微喘者，死。少阴负跌阳者，为顺也。" located at cell '病脉证set08'!A38.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00363_下利，寸脉反浮数，尺中自涩者，必清脓血。  # Generated from value "BMZ00363_下利，寸脉反浮数，尺中自涩者，必清脓血。" located at cell '病脉证set08'!A39.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00364_下利清谷，不可攻表，汗出必胀满。  # Generated from value "BMZ00364_下利清谷，不可攻表，汗出必胀满。" located at cell '病脉证set08'!A40.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00365_下利，脉沉弦者，下重也；脉大者，为未止；脉微弱数者，为欲自止，虽发热，不死。  # Generated from value "BMZ00365_下利，脉沉弦者，下重也；脉大者，为未止；脉微弱数者，为欲自止，虽发热，不死。" located at cell '病脉证set08'!A41.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00366_下利，脉沉而迟，其人面少赤，身有微热，下利清谷者，必郁冒，汗出而解，病人必微厥。所以然者，其面戴阳，下虚故也。  # Generated from value "BMZ00366_下利，脉沉而迟，其人面少赤，身有微热，下利清谷者，必郁冒，汗出而解，病人必微厥。所以然者，其面戴阳，下虚故也。" located at cell '病脉证set08'!A42.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00367_下利，脉数而渴者，今自愈。设不差，必清脓血，以有热故也。  # Generated from value "BMZ00367_下利，脉数而渴者，今自愈。设不差，必清脓血，以有热故也。" located at cell '病脉证set08'!A43.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00368_下利后，脉绝，手足厥冷，晬时脉还，手足温者，生；脉不还者，死。  # Generated from value "BMZ00368_下利后，脉绝，手足厥冷，晬时脉还，手足温者，生；脉不还者，死。" located at cell '病脉证set08'!A44.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00369_伤寒，下利，日十余行，脉反实者，死。  # Generated from value "BMZ00369_伤寒，下利，日十余行，脉反实者，死。" located at cell '病脉证set08'!A45.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00370_下利清谷，里寒外热，汗出而厥者，通脉四逆汤主之。  # Generated from value "BMZ00370_下利清谷，里寒外热，汗出而厥者，通脉四逆汤主之。" located at cell '病脉证set08'!A46.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00371_热利下重者，白头翁汤主之。  # Generated from value "BMZ00371_热利下重者，白头翁汤主之。" located at cell '病脉证set08'!A47.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00372_下利，腹胀满，身体疼痛者，先温其里，乃攻其表，温里宜四逆汤，攻表宜桂枝汤。  # Generated from value "BMZ00372_下利，腹胀满，身体疼痛者，先温其里，乃攻其表，温里宜四逆汤，攻表宜桂枝汤。" located at cell '病脉证set08'!A48.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00373_下利，欲饮水者，以有热故也，白头翁汤主之。  # Generated from value "BMZ00373_下利，欲饮水者，以有热故也，白头翁汤主之。" located at cell '病脉证set08'!A49.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00374_下利，谵语者，有燥屎也，宜小承气汤。  # Generated from value "BMZ00374_下利，谵语者，有燥屎也，宜小承气汤。" located at cell '病脉证set08'!A50.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00375_下利后，更烦，按之心下濡者，为虚烦也，宜栀子豉汤。  # Generated from value "BMZ00375_下利后，更烦，按之心下濡者，为虚烦也，宜栀子豉汤。" located at cell '病脉证set08'!A51.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00376_呕家，有痈脓者，不可治呕，脓尽自愈。  # Generated from value "BMZ00376_呕家，有痈脓者，不可治呕，脓尽自愈。" located at cell '病脉证set08'!A52.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00377_呕而脉弱，小便复利，身有微热，见厥者难治，四逆汤主之。  # Generated from value "BMZ00377_呕而脉弱，小便复利，身有微热，见厥者难治，四逆汤主之。" located at cell '病脉证set08'!A53.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00378_干呕，吐涎沫，头痛者，吴茱萸汤主之。  # Generated from value "BMZ00378_干呕，吐涎沫，头痛者，吴茱萸汤主之。" located at cell '病脉证set08'!A54.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00379_呕而发热者，小柴胡汤主之。  # Generated from value "BMZ00379_呕而发热者，小柴胡汤主之。" located at cell '病脉证set08'!A55.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00380_伤寒，大吐、大下之，极虚，复极汗者，其人外气佛郁，复与之水，以发其汗，因得哕，所以然者，胃中寒冷故也。  # Generated from value "BMZ00380_伤寒，大吐、大下之，极虚，复极汗者，其人外气佛郁，复与之水，以发其汗，因得哕，所以然者，胃中寒冷故也。" located at cell '病脉证set08'!A56.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00381_伤寒，哕而腹满，视其前后，知何部不利，利之即愈。  # Generated from value "BMZ00381_伤寒，哕而腹满，视其前后，知何部不利，利之即愈。" located at cell '病脉证set08'!A57.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00326_厥阴之为病，消渴，气上撞心，心中疼热，饥而不欲食，食则吐蛔。下之，利不止。  # Generated from value "BMZ00326_厥阴之为病，消渴，气上撞心，心中疼热，饥而不欲食，食则吐蛔。下之，利不止。" located at cell '病脉证set08'!A2.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00327_厥阴中风，脉微浮，为欲愈，不浮，为未愈。  # Generated from value "BMZ00327_厥阴中风，脉微浮，为欲愈，不浮，为未愈。" located at cell '病脉证set08'!A3.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00328_厥阴病，欲解时，从丑至卯上。  # Generated from value "BMZ00328_厥阴病，欲解时，从丑至卯上。" located at cell '病脉证set08'!A4.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00329_厥阴病，渴欲饮水者，少少与之愈。  # Generated from value "BMZ00329_厥阴病，渴欲饮水者，少少与之愈。" located at cell '病脉证set08'!A5.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00330_诸四逆厥者，不可下之，虚家亦然。  # Generated from value "BMZ00330_诸四逆厥者，不可下之，虚家亦然。" located at cell '病脉证set08'!A6.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00331_伤寒，先厥后发热，而利者必自止，见厥复利。  # Generated from value "BMZ00331_伤寒，先厥后发热，而利者必自止，见厥复利。" located at cell '病脉证set08'!A7.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00332_伤寒，始发热六日，厥反九日而利。凡厥利者，当不能食；今反能食者，恐为除中。食以索饼，不发热者，知胃气尚在，必愈。恐暴热来出而复去也。后日脉之，其热续在者，期之旦日夜半愈。所以然者，本发热六日，厥反九日，复发热三日，并前六日，亦为九日，与厥相应，故期之旦日夜半愈。后三日脉之而脉数，其热不罢者，此为热气有余，必发痈脓也。  # Generated from value "BMZ00332_伤寒，始发热六日，厥反九日而利。凡厥利者，当不能食；今反能食者，恐为除中。食以索饼，不发热者，知胃气尚在，必愈。恐暴热来出而复去也。后日脉之，其热续在者，期之旦日夜半愈。所以然者，本发热六日，厥反九日，复发热三日，并前六日，亦为九日，与厥相应，故期之旦日夜半愈。后三日脉之而脉数，其热不罢者，此为热气有余，必发痈脓也。" located at cell '病脉证set08'!A8.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00333_伤寒，脉迟六七日，而反与黄芩汤彻其热。脉迟为寒，今与黄芩汤，复除其热，腹中应冷，当不能食，今反能食，此名除中，必死。  # Generated from value "BMZ00333_伤寒，脉迟六七日，而反与黄芩汤彻其热。脉迟为寒，今与黄芩汤，复除其热，腹中应冷，当不能食，今反能食，此名除中，必死。" located at cell '病脉证set08'!A9.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00334_伤寒，先厥后发热，下利必自止。而反汗出，咽中痛者，其喉为痹。发热无汗，而利必自止；若不止，必便脓血。便脓血者，其喉不痹。  # Generated from value "BMZ00334_伤寒，先厥后发热，下利必自止。而反汗出，咽中痛者，其喉为痹。发热无汗，而利必自止；若不止，必便脓血。便脓血者，其喉不痹。" located at cell '病脉证set08'!A10.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00335_伤寒一二日至四五日，厥者必发热。前热者后必厥。厥深者，热亦深；厥微者，热亦微。厥应下之，而反发汗者，必口伤烂赤。  # Generated from value "BMZ00335_伤寒一二日至四五日，厥者必发热。前热者后必厥。厥深者，热亦深；厥微者，热亦微。厥应下之，而反发汗者，必口伤烂赤。" located at cell '病脉证set08'!A11.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00336_伤寒，病厥五日，热亦五日。设六日当复厥，不厥者，自愈。厥终不过五日，以热五日，故知自愈。  # Generated from value "BMZ00336_伤寒，病厥五日，热亦五日。设六日当复厥，不厥者，自愈。厥终不过五日，以热五日，故知自愈。" located at cell '病脉证set08'!A12.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00337_凡厥者，阴阳气不相顺接，便为厥。厥者，手足逆冷者是也。  # Generated from value "BMZ00337_凡厥者，阴阳气不相顺接，便为厥。厥者，手足逆冷者是也。" located at cell '病脉证set08'!A13.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00338_伤寒，脉微而厥，至七八日肤冷，其人躁无暂安时者，此为脏厥，非蛔厥也。蛔厥者，其人当吐蛔。今病者静，而复时烦者，此为脏寒。蛔上入其膈，故烦，须臾复止；得食而呕，又烦者，蛔闻食臭出，其人常自吐蛔。蛔厥者，乌梅丸主之。又主久利。  # Generated from value "BMZ00338_伤寒，脉微而厥，至七八日肤冷，其人躁无暂安时者，此为脏厥，非蛔厥也。蛔厥者，其人当吐蛔。今病者静，而复时烦者，此为脏寒。蛔上入其膈，故烦，须臾复止；得食而呕，又烦者，蛔闻食臭出，其人常自吐蛔。蛔厥者，乌梅丸主之。又主久利。" located at cell '病脉证set08'!A14.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00339_伤寒，热少微厥，指头寒，嘿嘿不欲食，烦躁。数日，小便利，色白者，此热除也。欲得食，其病为愈；若厥而呕，胸胁烦满者，其后必便血。  # Generated from value "BMZ00339_伤寒，热少微厥，指头寒，嘿嘿不欲食，烦躁。数日，小便利，色白者，此热除也。欲得食，其病为愈；若厥而呕，胸胁烦满者，其后必便血。" located at cell '病脉证set08'!A15.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00340_病者手足厥冷，言我不结胸，小腹满，按之痛者，此冷结在膀胱关元也。  # Generated from value "BMZ00340_病者手足厥冷，言我不结胸，小腹满，按之痛者，此冷结在膀胱关元也。" located at cell '病脉证set08'!A16.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00341_伤寒，发热四日，厥反三日，复热四日，厥少热多者，其病当愈。四日至七日，热不除者，必便脓血。  # Generated from value "BMZ00341_伤寒，发热四日，厥反三日，复热四日，厥少热多者，其病当愈。四日至七日，热不除者，必便脓血。" located at cell '病脉证set08'!A17.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00342_伤寒，厥四日，热反三日，复厥五日，其病为进。寒多热少，阳气退，故为进也。  # Generated from value "BMZ00342_伤寒，厥四日，热反三日，复厥五日，其病为进。寒多热少，阳气退，故为进也。" located at cell '病脉证set08'!A18.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00343_伤寒六七日，脉微，手足厥冷，烦躁，灸厥阴，厥不还者，死。  # Generated from value "BMZ00343_伤寒六七日，脉微，手足厥冷，烦躁，灸厥阴，厥不还者，死。" located at cell '病脉证set08'!A19.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00344_伤寒，发热，下利，厥逆，躁不得卧者，死。  # Generated from value "BMZ00344_伤寒，发热，下利，厥逆，躁不得卧者，死。" located at cell '病脉证set08'!A20.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00345_伤寒，发热，下利至甚，厥不止者，死。  # Generated from value "BMZ00345_伤寒，发热，下利至甚，厥不止者，死。" located at cell '病脉证set08'!A21.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00346_伤寒六七日，不利，便发热而利，其人汗出不止者，死。有阴无阳故也。  # Generated from value "BMZ00346_伤寒六七日，不利，便发热而利，其人汗出不止者，死。有阴无阳故也。" located at cell '病脉证set08'!A22.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00347_伤寒五六日，不结胸，腹濡，脉虚，复厥者，不可下，此亡血，下之死  # Generated from value "BMZ00347_伤寒五六日，不结胸，腹濡，脉虚，复厥者，不可下，此亡血，下之死" located at cell '病脉证set08'!A23.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00348_发热而厥，七日下利者，为难治。  # Generated from value "BMZ00348_发热而厥，七日下利者，为难治。" located at cell '病脉证set08'!A24.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00349_伤寒，脉促，手足厥逆，可灸之。  # Generated from value "BMZ00349_伤寒，脉促，手足厥逆，可灸之。" located at cell '病脉证set08'!A25.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00350_伤寒，脉滑而厥者，里有热，白虎汤主之。  # Generated from value "BMZ00350_伤寒，脉滑而厥者，里有热，白虎汤主之。" located at cell '病脉证set08'!A26.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00351_手足厥寒，脉细欲绝者，当归四逆汤主之。  # Generated from value "BMZ00351_手足厥寒，脉细欲绝者，当归四逆汤主之。" located at cell '病脉证set08'!A27.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00352_若其人内有久寒者，宜当归四逆加吴茱萸生姜汤。  # Generated from value "BMZ00352_若其人内有久寒者，宜当归四逆加吴茱萸生姜汤。" located at cell '病脉证set08'!A28.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00353_大汗出，热不去，内拘急，四肢疼，又下利厥逆而恶寒者，四逆汤主之。  # Generated from value "BMZ00353_大汗出，热不去，内拘急，四肢疼，又下利厥逆而恶寒者，四逆汤主之。" located at cell '病脉证set08'!A29.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00354_大汗，若大下利而厥冷者，四逆汤主之。  # Generated from value "BMZ00354_大汗，若大下利而厥冷者，四逆汤主之。" located at cell '病脉证set08'!A30.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00355_病人手足厥冷，脉乍紧者，邪结在胸中，心下满而烦，饥不能食者，病在胸中，当须吐之，宜瓜蒂散。  # Generated from value "BMZ00355_病人手足厥冷，脉乍紧者，邪结在胸中，心下满而烦，饥不能食者，病在胸中，当须吐之，宜瓜蒂散。" located at cell '病脉证set08'!A31.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00356_伤寒，厥而心下悸，宜先治水，当服茯苓甘草汤，却治其厥。不尔，水渍入胃，必作利也。  # Generated from value "BMZ00356_伤寒，厥而心下悸，宜先治水，当服茯苓甘草汤，却治其厥。不尔，水渍入胃，必作利也。" located at cell '病脉证set08'!A32.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00357_伤寒六七日，大下后，寸脉沉而迟，手足厥逆，下部脉不至，喉咽不利，唾脓血，泄利不止者，为难治，麻黄升麻汤主之。  # Generated from value "BMZ00357_伤寒六七日，大下后，寸脉沉而迟，手足厥逆，下部脉不至，喉咽不利，唾脓血，泄利不止者，为难治，麻黄升麻汤主之。" located at cell '病脉证set08'!A33.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00358_伤寒四五日，腹中痛，若转气下趣少腹者，此欲自利也。  # Generated from value "BMZ00358_伤寒四五日，腹中痛，若转气下趣少腹者，此欲自利也。" located at cell '病脉证set08'!A34.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00359_伤寒，本自寒下，医复吐下之，寒格，更逆吐下，若食入口即吐，干姜黄芩黄连人参汤主之。  # Generated from value "BMZ00359_伤寒，本自寒下，医复吐下之，寒格，更逆吐下，若食入口即吐，干姜黄芩黄连人参汤主之。" located at cell '病脉证set08'!A35.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00360_下利，有微热而渴，脉弱者，今自愈。  # Generated from value "BMZ00360_下利，有微热而渴，脉弱者，今自愈。" located at cell '病脉证set08'!A36.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00361_下利，脉数，有微热汗出，今自愈。设复紧，为未解。  # Generated from value "BMZ00361_下利，脉数，有微热汗出，今自愈。设复紧，为未解。" located at cell '病脉证set08'!A37.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00362_下利，手足厥冷，无脉者，灸之不温，若脉不还，反微喘者，死。少阴负跌阳者，为顺也。  # Generated from value "BMZ00362_下利，手足厥冷，无脉者，灸之不温，若脉不还，反微喘者，死。少阴负跌阳者，为顺也。" located at cell '病脉证set08'!A38.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00363_下利，寸脉反浮数，尺中自涩者，必清脓血。  # Generated from value "BMZ00363_下利，寸脉反浮数，尺中自涩者，必清脓血。" located at cell '病脉证set08'!A39.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00364_下利清谷，不可攻表，汗出必胀满。  # Generated from value "BMZ00364_下利清谷，不可攻表，汗出必胀满。" located at cell '病脉证set08'!A40.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00365_下利，脉沉弦者，下重也；脉大者，为未止；脉微弱数者，为欲自止，虽发热，不死。  # Generated from value "BMZ00365_下利，脉沉弦者，下重也；脉大者，为未止；脉微弱数者，为欲自止，虽发热，不死。" located at cell '病脉证set08'!A41.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00366_下利，脉沉而迟，其人面少赤，身有微热，下利清谷者，必郁冒，汗出而解，病人必微厥。所以然者，其面戴阳，下虚故也。  # Generated from value "BMZ00366_下利，脉沉而迟，其人面少赤，身有微热，下利清谷者，必郁冒，汗出而解，病人必微厥。所以然者，其面戴阳，下虚故也。" located at cell '病脉证set08'!A42.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00367_下利，脉数而渴者，今自愈。设不差，必清脓血，以有热故也。  # Generated from value "BMZ00367_下利，脉数而渴者，今自愈。设不差，必清脓血，以有热故也。" located at cell '病脉证set08'!A43.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00368_下利后，脉绝，手足厥冷，晬时脉还，手足温者，生；脉不还者，死。  # Generated from value "BMZ00368_下利后，脉绝，手足厥冷，晬时脉还，手足温者，生；脉不还者，死。" located at cell '病脉证set08'!A44.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00369_伤寒，下利，日十余行，脉反实者，死。  # Generated from value "BMZ00369_伤寒，下利，日十余行，脉反实者，死。" located at cell '病脉证set08'!A45.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00370_下利清谷，里寒外热，汗出而厥者，通脉四逆汤主之。  # Generated from value "BMZ00370_下利清谷，里寒外热，汗出而厥者，通脉四逆汤主之。" located at cell '病脉证set08'!A46.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00371_热利下重者，白头翁汤主之。  # Generated from value "BMZ00371_热利下重者，白头翁汤主之。" located at cell '病脉证set08'!A47.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00372_下利，腹胀满，身体疼痛者，先温其里，乃攻其表，温里宜四逆汤，攻表宜桂枝汤。  # Generated from value "BMZ00372_下利，腹胀满，身体疼痛者，先温其里，乃攻其表，温里宜四逆汤，攻表宜桂枝汤。" located at cell '病脉证set08'!A48.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00373_下利，欲饮水者，以有热故也，白头翁汤主之。  # Generated from value "BMZ00373_下利，欲饮水者，以有热故也，白头翁汤主之。" located at cell '病脉证set08'!A49.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00374_下利，谵语者，有燥屎也，宜小承气汤。  # Generated from value "BMZ00374_下利，谵语者，有燥屎也，宜小承气汤。" located at cell '病脉证set08'!A50.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00375_下利后，更烦，按之心下濡者，为虚烦也，宜栀子豉汤。  # Generated from value "BMZ00375_下利后，更烦，按之心下濡者，为虚烦也，宜栀子豉汤。" located at cell '病脉证set08'!A51.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00376_呕家，有痈脓者，不可治呕，脓尽自愈。  # Generated from value "BMZ00376_呕家，有痈脓者，不可治呕，脓尽自愈。" located at cell '病脉证set08'!A52.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00377_呕而脉弱，小便复利，身有微热，见厥者难治，四逆汤主之。  # Generated from value "BMZ00377_呕而脉弱，小便复利，身有微热，见厥者难治，四逆汤主之。" located at cell '病脉证set08'!A53.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00378_干呕，吐涎沫，头痛者，吴茱萸汤主之。  # Generated from value "BMZ00378_干呕，吐涎沫，头痛者，吴茱萸汤主之。" located at cell '病脉证set08'!A54.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00379_呕而发热者，小柴胡汤主之。  # Generated from value "BMZ00379_呕而发热者，小柴胡汤主之。" located at cell '病脉证set08'!A55.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00380_伤寒，大吐、大下之，极虚，复极汗者，其人外气佛郁，复与之水，以发其汗，因得哕，所以然者，胃中寒冷故也。  # Generated from value "BMZ00380_伤寒，大吐、大下之，极虚，复极汗者，其人外气佛郁，复与之水，以发其汗，因得哕，所以然者，胃中寒冷故也。" located at cell '病脉证set08'!A56.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+Individual: BMZ00381_伤寒，哕而腹满，视其前后，知何部不利，利之即愈。  # Generated from value "BMZ00381_伤寒，哕而腹满，视其前后，知何部不利，利之即愈。" located at cell '病脉证set08'!A57.
+   Types: 伤寒杂病论_08_辨厥阴病脉证并治
+
+===========================================================================================================
