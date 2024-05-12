@@ -2017,3 +2017,42 @@ Individual: BMZ00391_吐利，发汗，脉平，小烦者，以新虚，不胜�
    Types: 伤寒杂病论_09_辨霍乱病脉证并治
 
 ===========================================================================================================
+Date: 2024-05-12 16:08:49
+Ontology source: /D:/GitHub/Chinese_Medicine/cn-medo.rdf
+Worksheet source: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\病脉证set10.xlsx
+Transformation rules: D:\GitHub\Chinese_Medicine\CM_Ref\伤寒杂病论\伤寒杂病论.json
+
+# Cell range: (病脉证set10!A2:B8) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。  # Generated from value "BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。" located at cell '病脉证set10'!A2.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。  # Generated from value "BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。" located at cell '病脉证set10'!A3.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。  # Generated from value "BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。" located at cell '病脉证set10'!A4.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。  # Generated from value "BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。" located at cell '病脉证set10'!A5.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。  # Generated from value "BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。" located at cell '病脉证set10'!A6.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。  # Generated from value "BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。" located at cell '病脉证set10'!A7.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00398_病人脉已解，而日暮微烦，以病新差，人强与谷，脾胃气尚弱，不能消谷，故令微烦，损谷则愈。  # Generated from value "BMZ00398_病人脉已解，而日暮微烦，以病新差，人强与谷，脾胃气尚弱，不能消谷，故令微烦，损谷则愈。" located at cell '病脉证set10'!A8.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。  # Generated from value "BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。" located at cell '病脉证set10'!A2.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。  # Generated from value "BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。" located at cell '病脉证set10'!A3.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。  # Generated from value "BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。" located at cell '病脉证set10'!A4.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。  # Generated from value "BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。" located at cell '病脉证set10'!A5.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。  # Generated from value "BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。" located at cell '病脉证set10'!A6.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。  # Generated from value "BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。" located at cell '病脉证set10'!A7.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+Individual: BMZ00398_病人脉已解，而日暮微烦，以病新差，人强与谷，脾胃气尚弱，不能消谷，故令微烦，损谷则愈。  # Generated from value "BMZ00398_病人脉已解，而日暮微烦，以病新差，人强与谷，脾胃气尚弱，不能消谷，故令微烦，损谷则愈。" located at cell '病脉证set10'!A8.
+   Types: 伤寒杂病论_10_辨阴阳易差后劳复病脉证并治
+
+===========================================================================================================

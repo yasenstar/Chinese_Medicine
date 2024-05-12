@@ -9,7 +9,8 @@
      xmlns:cn-medo="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo">
         <rdfs:comment>2024/05/10: publish ontology to https://mmisw.org/ont/#/, with IRI now accessible from public</rdfs:comment>
-        <rdfs:comment>2024/05/11：添加“伤寒杂病论”第四章建模与第五章病脉证导入
+        <rdfs:comment>2024/05/12：添加“伤寒杂病论”第五到十章建模，全书建模完毕
+2024/05/11：添加“伤寒杂病论”第四章建模与第五章病脉证导入
 2024/05/10：添加“伤寒杂病论_03_辨太阳病脉证并治-下_方剂”
 2024/05/09：整合方剂与病脉证分别到相关的class中，避免概念交叉
 2024/05/03：添加“归脾丸”，调整属性定义
@@ -606,6 +607,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_09_辨霍乱病脉证并治">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_病脉证"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证_方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证_方剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_方剂"/>
     </owl:Class>
     
 
@@ -6858,6 +6867,62 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00398_病人脉已解，而日暮微烦，以病新差，人强与谷，脾胃气尚弱，不能消谷，故令微烦，损谷则愈。 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00398_病人脉已解，而日暮微烦，以病新差，人强与谷，脾胃气尚弱，不能消谷，故令微烦，损谷则愈。">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证并治"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00001_桂枝汤 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00001_桂枝汤">
@@ -7472,6 +7537,7 @@
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00231_阳明中风，脉弦浮大而短气，腹都满，胁下及心痛，久按之气不通，鼻干不得汗，嗜卧，一身及目悉黄，小便难，有潮热，时时哕，耳前后肿，刺之小差，外不解，病过十日，脉续浮者，与小柴胡汤。"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00266_本太阳病不解，转入少阳者，胁下鞕满，干呕不能食，往来寒热，尚未吐下，脉沉紧者，与小柴胡汤。"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00379_呕而发热者，小柴胡汤主之。"/>
+        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00394_伤寒差以后，更发热，小柴胡汤主之。脉浮者，以汗解之；脉沉实者，以下解之。"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参_三两"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_半升_洗"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
@@ -8559,6 +8625,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00109_理中丸">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_09_辨霍乱病脉证_方剂"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00386_霍乱，头痛，发热，身疼痛，热多欲饮水者，五苓散主之；寒多不用水者，理中丸主之。"/>
+        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00396_大病差后，喜唾，久不了了，胸上有寒，当以丸药温之，宜理中丸。"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参_三两"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_三两_炙"/>
@@ -8578,6 +8645,67 @@
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子_一枚_生用_去皮_破八片"/>
         <cn-medo:方剂制法>右四味，以水三升，煮取一升二合，去滓；内猪胆汁，分温再服，其脉即来。无猪胆，以羊胆代之。</cn-medo:方剂制法>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00111_烧裈散 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00111_烧裈散">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证_方剂"/>
+        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00392_伤寒，阴阳易之为病，其人身体重，少气，少腹里急，或引阴中拘挛，热上冲胸，头重不欲举，眼中生花，膝胫拘急者，烧裈散主之。"/>
+        <cn-medo:方剂制法>妇人中，近隐处，取烧作灰。右一味，水服方寸匕，日三服，小便即利，阴头微肿，此为愈矣。妇人病取男子烧服</cn-medo:方剂制法>
+        <rdfs:comment>烧裈散 裈kun1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00112_枳实栀子豉汤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00112_枳实栀子豉汤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证_方剂"/>
+        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00393_大病差后，劳复者，枳实栀子豉汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#枳实_三枚_大者_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栀子_十四个_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#豉_一升_绵裹"/>
+        <cn-medo:方剂制法>右三味，以清浆水七升，空煮取四升；内枳实、栀子，煮取二升；下豉，更煮五六沸，去滓，温分再服，覆，令微似汗。若有宿食者，内大黄如博棋子五六枚，服之愈。</cn-medo:方剂制法>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00113_牡蛎泽泻散 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00113_牡蛎泽泻散">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证_方剂"/>
+        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00395_大病差后，从腰以下有水气者，牡蛎泽泻散主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆根_一两_熬"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝楼根_一两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#泽泻_一两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻_一两_洗去咸"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎_一两_熬"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈子_一两_熬"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆_一两_暖水洗去腥"/>
+        <cn-medo:方剂制法>右七味，异捣，下筛为散；更于臼中治之，白饮和服方寸匕，日三服。小便利，止后服。</cn-medo:方剂制法>
+        <rdfs:comment>晓琦注：方剂以其最新出现的章节为准，对于后续章节中的重复方剂，如果用量完全一致则不再重复编号</rdfs:comment>
+        <rdfs:comment>牡蛎熬泽泻 蜀漆暖水洗去腥葶苈子熬商陆根熬海藻洗去咸栝楼根各等分
+晓琦注：各取一两</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00114_竹叶石膏汤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00114_竹叶石膏汤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论_10_辨阴阳易差后劳复病脉证_方剂"/>
+        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ00397_伤寒解后，虚羸少气，气逆欲吐，竹叶石膏汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参_二两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_半升_洗"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶_二把"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_半升"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬_一升_去心"/>
+        <cn-medo:方剂制法>右七味，以水一斗，煮取六升，去滓；内粳米，煮米熟，汤成去米，温服一升，日三服</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
 
@@ -8775,6 +8903,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#吴茱萸_二升">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#吴茱萸"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆根_一两_熬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆根_一两_熬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#商陆"/>
     </owl:NamedIndividual>
     
 
@@ -9287,6 +9423,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝楼根_一两 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝楼根_一两">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝楼"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝楼根_四两 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#栝楼根_四两">
@@ -9485,10 +9629,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻_一两_洗去咸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻_一两_洗去咸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#海藻"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#滑石_一两_碎 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#滑石_一两_碎">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#滑石"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎_一两_熬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎_一两_熬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡蛎"/>
     </owl:NamedIndividual>
     
 
@@ -9920,6 +10080,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤_碎 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤_碎">
@@ -9987,6 +10155,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶_二把 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶_二把">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹叶"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹蔗干 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#竹蔗干">
@@ -10029,6 +10205,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_六合">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米"/>
         <cn-medo:组分于 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ00008_白虎加人参汤-1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_半升 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_半升">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米"/>
     </owl:NamedIndividual>
     
 
@@ -10330,6 +10514,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈子_一两_熬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈子_一两_熬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈子_半升_熬 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葶苈子_半升_熬">
@@ -10362,6 +10554,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆_一两_暖水洗去腥 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆_一两_暖水洗去腥">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆_三两_洗去腥 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜀漆_三两_洗去腥">
@@ -10374,6 +10574,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#蜜枣">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#豉_一升_绵裹 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#豉_一升_绵裹">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香豉"/>
     </owl:NamedIndividual>
     
 
@@ -10594,6 +10802,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸡子黄_二枚">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鸡"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬_一升_去心 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬_一升_去心">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麦门冬"/>
     </owl:NamedIndividual>
     
 
