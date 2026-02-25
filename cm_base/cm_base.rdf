@@ -7,6 +7,61 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方剂之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方剂之部"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#法则之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#法则之部"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#理论之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#理论之部"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#药物之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#药物之部"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方剂之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#法则之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#理论之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#药物之部"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
