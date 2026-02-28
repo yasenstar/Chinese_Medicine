@@ -5,8 +5,40 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cm_base="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#克 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#克"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#对应 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#对应">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#生 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#生"/>
     
 
 
@@ -21,27 +53,391 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方剂之部 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#七窍 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方剂之部"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#七窍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#法则之部 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#法则之部"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#1-理论之部"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#理论之部 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#八纲 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#理论之部"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#八纲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#1-理论之部"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#药物之部 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#内脏 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#药物之部"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#内脏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#动物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#动物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#味 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#味">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#声 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#声">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#季节 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#季节">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#形体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#形体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#志 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#志">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#植物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#植物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#气 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#气">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#气候 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#气候">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病所 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病所">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的强弱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的强弱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#八纲"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#八纲"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的正反 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的正反">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#八纲"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的部位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的部位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#八纲"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#色 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#色">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阴阳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阴阳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#1-理论之部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#音 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#音">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#1-理论之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#1-理论之部"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#2-法则之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#2-法则之部"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#3-方剂之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#3-方剂之部"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#4-药物之部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#4-药物之部"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#东 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#东">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#中央 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#中央">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#北 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#北">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#南 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#南">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#土 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#土">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+        <cm_base:克 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#水"/>
+        <cm_base:对应 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#中央"/>
+        <cm_base:生 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#金"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#实 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#实">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的强弱"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#寒 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#寒">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的性质"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#木 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#木">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+        <cm_base:克 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#土"/>
+        <cm_base:对应 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#东"/>
+        <cm_base:生 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#火"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#水 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#水">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+        <cm_base:克 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#火"/>
+        <cm_base:对应 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#北"/>
+        <cm_base:生 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#木"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#火 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#火">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+        <cm_base:克 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#金"/>
+        <cm_base:对应 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#南"/>
+        <cm_base:生 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#土"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#热 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#热">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的性质"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#虚 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#虚">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的强弱"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#表 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#表">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的部位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#西 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#西">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#里 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#里">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的部位"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#金 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#金">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#五行"/>
+        <cm_base:克 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#木"/>
+        <cm_base:对应 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#西"/>
+        <cm_base:生 rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#水"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阳">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的正反"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阴阳"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#病的正反"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#阴阳"/>
+    </owl:NamedIndividual>
     
 
 
@@ -56,10 +452,10 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#方剂之部"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#法则之部"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#理论之部"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#药物之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#1-理论之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#2-法则之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#3-方剂之部"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/1/cm_base#4-药物之部"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
