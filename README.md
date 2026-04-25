@@ -36,6 +36,10 @@ Ontology Name: [cn-medo.rdf](cn-medo.rdf)
 
 ---
 
+## 中草药知识图谱
+
+https://traditional-medicine.streamlit.app/
+
 ## Video links will be published here
 
 - [YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXxvfG6fZzythByHxKzc64G)
