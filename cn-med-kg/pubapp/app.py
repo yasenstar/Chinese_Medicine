@@ -18,24 +18,36 @@ def get_driver():
 
 driver = get_driver()
 
-# --- QUERY FUNCTION ---
-def run_query(query):
-    with driver.session() as session:
-        result = session.run(query)
-        return [r.data() for r in result]
+def query_graph(tx):
+    query = """
+    MATCH (n)-[r]->(m)
+    RETURN n, r, m LIMIT 50
+    """
+    return list(tx.run(query))
 
-# --- UI ===
-st.title("Traditional Medicine Knowledge Graph")
+def build_graph(data):
+    net = Network(height="600px", width="100%", directed=True)
 
-st.markdown("Expore using Neo4j")
+    for record in data:
+        n = record["n"]
+        m = record["m"]
+        r = record["r"]
 
-# --- USER INPUT ---
-query = st.text_area(
-    "Enter Cypher Query:",
-    "MATCH (n)-[r]->(m) RETURN n,r,m LIMIT 25"
-)
+        net.add_node(n.id, label=n.get("name", str(n.id)))
+        net.add_node(m.id, label=m.get("name", str(m.id)))
+        net.add_edge(n.id, m.id, label=type(r).__name__)
 
-if st.button("Run Query"):
-    data = run_query(query)
-    st.write("### Results")
-    st.json(data)
+    return net
+
+with driver.session() as session:
+    result = session.read_transaction(query_graph)
+
+net = build_graph(result)
+
+# Save and display
+net.save_graph("graph.html")
+
+with open("graph.html", "r", encoding="utf-8") as f:
+    html = f.read()
+
+st.components.v1.html(html, height=600)
