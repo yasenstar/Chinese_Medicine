@@ -1,6 +1,7 @@
 import streamlit as st
 from neo4j import GraphDatabase
 import pandas as pd
+from pyvis.network import Network
 
 # --- CONFIG ---
 NEO4J_URI = st.secrets["NEO4J_URI"]

@@ -1,3 +1,4 @@
 streamlit>=1.30
 neo4j>=5.0
 pandas>=1.5
+pyvis
