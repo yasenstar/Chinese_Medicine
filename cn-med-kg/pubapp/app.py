@@ -33,7 +33,7 @@ def build_graph(data):
     return net
 
 with driver.session() as session:
-    result = session.read_transaction(query_graph)
+    result = session.execute_read(query_graph)
 
 net = build_graph(result)
 
