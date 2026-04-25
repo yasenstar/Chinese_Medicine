@@ -24,7 +24,7 @@ st.title("Traditional Medicine Knowledge Graph")
 st.markdown("Expore using Neo4j")
 
 def build_graph(data):
-    net = Network(height="900px", width="1200px", directed=True)
+    net = Network(height="900px", width="100%", directed=True)
 
     for record in data:
         n = record["n"]
