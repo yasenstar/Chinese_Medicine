@@ -1,11 +1,18 @@
 # 中药知识图谱数据库
 
 - [中药知识图谱数据库](#中药知识图谱数据库)
+  - [查询全部信息](#查询全部信息)
   - [Meta-Model (Version 1)](#meta-model-version-1)
   - [导入药品名录](#导入药品名录)
   - [导入药品成分列表](#导入药品成分列表)
   - [导入功能](#导入功能)
   - [导入主治（用途）](#导入主治用途)
+
+## 查询全部信息
+
+```sql
+MATCH p=((n)-[]-(m)) RETURN p
+```
 
 ## Meta-Model (Version 1)
 
@@ -14,7 +21,7 @@
 ## 导入药品名录
 
 ```sql
--- Version 2: 2026-04-23
+-- Version 2: 2026-04-25
 LOAD CSV WITH HEADERS FROM 'file:///D:/github/Chinese_Medicine/cn-med-kg/csv/1-namelist.csv' AS row
 MERGE (m:Medicine { UID: row.UID })
 SET
@@ -22,6 +29,7 @@ SET
     m.nameEnglish = row.NameEnglish,
     m.brand = row.`品牌`,
     m.brandEnglish = row.BrandEnglish,
+    m.docNum = row.`批准文号`,
     m.standard = row.`执行标准`
 MERGE (p:Producer { name: row.`生产商` })
 SET

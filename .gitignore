@@ -1,2 +1,5 @@
 ~$*.xlsx
 ~$*.pptx
+
+# Streamlit
+secrets.toml
