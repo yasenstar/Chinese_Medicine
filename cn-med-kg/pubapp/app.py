@@ -19,9 +19,9 @@ def query_graph(tx):
     return list(tx.run(query))
 
 # --- UI ===
-st.title("Traditional Medicine Knowledge Graph")
+st.title("中草药知识图谱")
 
-st.markdown("Expore using Neo4j")
+st.markdown("Traditional Medicine Knowledge Graph")
 
 def build_graph(data):
     net = Network(height="900px", width="100%", directed=True)
