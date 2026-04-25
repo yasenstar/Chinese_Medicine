@@ -1,6 +1,6 @@
 import streamlit as st
 from neo4j import GraphDatabase
-import pandas as pd
+# import pandas as pd
 from pyvis.network import Network
 
 # --- CONFIG ---
@@ -8,20 +8,13 @@ NEO4J_URI = st.secrets["NEO4J_URI"]
 NEO4J_USER = st.secrets["NEO4J_USER"]
 NEO4J_PASSWORD = st.secrets["NEO4J_PASSWORD"]
 
-# --- CONNECTION ---
-@st.cache_resource
-def get_driver():
-    return GraphDatabase.driver(
-        NEO4J_URI,
-        auth = (NEO4J_USER, NEO4J_PASSWORD)
-    )
-
-driver = get_driver()
+# Neo4j connection
+driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
 def query_graph(tx):
     query = """
     MATCH (n)-[r]->(m)
-    RETURN n, r, m LIMIT 50
+    RETURN n, r, m LIMIT 1000
     """
     return list(tx.run(query))
 
