@@ -24,7 +24,7 @@ st.title("中草药知识图谱")
 st.markdown("Traditional Medicine Knowledge Graph")
 
 def build_graph(data):
-    net = Network(height="900px", width="100%", directed=True)
+    net = Network(height="1000px", width="150%", directed=True)
 
     for record in data:
         n = record["n"]
